@@ -1,0 +1,171 @@
+﻿S24 PROG8081 Section ?
+Exercise/Task 4
+ 
+Student Name: ????
+ 
+Oct  8 2022  3:01PM
+ 
+*** Question 1 ***
+ 
+
+(122 rows affected)
+ 
+Number of rows in VendorCopyXX
+------------------------------
+122
+
+(1 row affected)
+
+*** Question 2 ***
+ 
+
+(11 rows affected)
+ 
+Number of rows in InvoiceBalancesXX
+-----------------------------------
+11
+
+(1 row affected)
+
+*** Question 3 ***
+ 
+
+(1 row affected)
+ 
+InvoiceID   VendorID    InvoiceNumber                                      InvoiceDate InvoiceTotal          PaymentTotal          CreditTotal           TermsID     InvoiceDueDate PaymentDate
+----------- ----------- -------------------------------------------------- ----------- --------------------- --------------------- --------------------- ----------- -------------- -----------
+114         86          4591178                                            2022-09-01  9345.60               0.00                  0.00                  1           2022-10-01     NULL
+
+(1 row affected)
+
+*** Question 4 ***
+ 
+
+(1 row affected)
+ 
+InvoiceID   VendorID    InvoiceNumber                                      InvoiceDate InvoiceTotal          PaymentTotal          CreditTotal           TermsID     InvoiceDueDate PaymentDate
+----------- ----------- -------------------------------------------------- ----------- --------------------- --------------------- --------------------- ----------- -------------- -----------
+115         30          COSTCO345                                          2022-10-08  2800.00               0.00                  0.00                  1           2022-11-07     NULL
+
+(1 row affected)
+
+*** Question 5 ***
+ 
+
+(1 row affected)
+ 
+InvoiceID   VendorID    InvoiceNumber                                      InvoiceDate InvoiceTotal          PaymentTotal          CreditTotal           TermsID     InvoiceDueDate PaymentDate
+----------- ----------- -------------------------------------------------- ----------- --------------------- --------------------- --------------------- ----------- -------------- -----------
+115         30          COSTCO345                                          2022-10-08  2800.00               0.00                  300.00                1           2022-11-07     NULL
+
+(1 row affected)
+
+*** Question 6 ***
+ 
+
+(4 rows affected)
+ 
+InvoiceID   InvoiceNumber                                      VendorID    InvoiceTotal          CreditTotal
+----------- -------------------------------------------------- ----------- --------------------- ---------------------
+89          39104                                              72          85.31                 0.00
+94          963253264                                          123         52.25                 0.00
+98          31361833                                           83          579.42                0.00
+99          263253268                                          123         59.97                 0.00
+100         263253270                                          123         67.92                 0.00
+101         263253273                                          123         30.75                 0.00
+102         P-0608                                             110         20551.18              1290.00
+105         9982771                                            106         503.20                0.00
+110         134116                                             80          90.36                 0.00
+112         0-2436                                             110         10976.06              90.00
+113         547480102                                          37          224.00                0.00
+114         4591178                                            86          9345.60               90.00
+115         COSTCO345                                          30          2800.00               390.00
+
+(13 rows affected)
+
+*** Question 7 ***
+ 
+
+(1 row affected)
+ 
+InvoiceID   InvoiceNumber                                      VendorID    InvoiceTotal          CreditTotal
+----------- -------------------------------------------------- ----------- --------------------- ---------------------
+89          39104                                              72          85.31                 0.00
+94          963253264                                          123         52.25                 0.00
+98          31361833                                           83          579.42                0.00
+99          263253268                                          123         59.97                 0.00
+100         263253270                                          123         67.92                 0.00
+101         263253273                                          123         30.75                 0.00
+102         P-0608                                             110         20551.18              1290.00
+105         9982771                                            106         503.20                0.00
+110         134116                                             80          90.36                 0.00
+112         0-2436                                             110         10976.06              90.00
+113         547480102                                          37          224.00                0.00
+115         COSTCO345                                          30          2800.00               390.00
+
+(12 rows affected)
+
+*** Question 8 ***
+ 
+VendorCopyXX Before Delete
+--------------------------
+122
+
+(1 row affected)
+
+(114 rows affected)
+
+ 
+VendorCopyXX After Delete
+-------------------------
+8
+
+(1 row affected)
+
+*** Question 9 ***
+ 
+
+(4 rows affected)
+More invoices than expected. Deletions rolled back.
+ 
+Number of FedEx invoices
+------------------------
+4
+
+(1 row affected)
+
+*** Question 10 ***
+ 
+Number of Invoices
+------------------
+114
+
+(1 row affected)
+
+Number of InvoiceLineItems
+--------------------------
+118
+
+(1 row affected)
+
+
+(1 row affected)
+
+(1 row affected)
+
+(1 row affected)
+ 
+Number of Invoices
+------------------
+115
+
+(1 row affected)
+
+Number of InvoiceLineItems
+--------------------------
+120
+
+(1 row affected)
+
+
+Completion time: 2022-10-08T15:01:34.9480223-04:00

@@ -1,0 +1,254 @@
+﻿COUNT( * )
+-----------
+434
+
+(1 row affected)
+
+COUNT( fax )
+------------
+4
+Warning: Null value is eliminated by an aggregate or other SET operation.
+
+(1 row affected)
+
+COUNT( ALL fax )
+----------------
+4
+Warning: Null value is eliminated by an aggregate or other SET operation.
+
+(1 row affected)
+
+COUNT( DISTINCT fax )
+---------------------
+3
+Warning: Null value is eliminated by an aggregate or other SET operation.
+
+(1 row affected)
+
+COUNT( DISTINCT fax ) with WHERE
+--------------------------------
+1
+Warning: Null value is eliminated by an aggregate or other SET operation.
+
+(1 row affected)
+
+Average amount
+--------------
+$ 457.94
+
+(1 row affected)
+
+Minimum Price
+-------------
+$   9.00
+
+(1 row affected)
+
+Maximum Price
+-------------
+$ 3,380.00
+
+(1 row affected)
+
+Sum of all Items
+----------------
+$ 5,037.32
+
+(1 row affected)
+
+Avg of all items
+----------------
+$    210.63
+
+(1 row affected)
+
+studentNumber 
+------------- ---------------------
+1114453       1000.00
+1335314       10000.00
+2286425       1000.00
+2642726       13159.00
+2826147       1000.00
+3244449       5291.44
+3868247       13159.00
+6644710       1159.00
+7252620       5291.44
+7677479       2000.00
+7681752       1000.00
+7826662       6791.44
+8431710       5291.44
+8588766       1000.00
+8866782       3000.00
+
+(15 rows affected)
+
+sessionCode AverageAmount
+----------- ---------------------
+
+(0 rows affected)
+
+AverageAmount
+---------------------
+NULL
+
+(1 row affected)
+
+studentNumber Invoice Total
+------------- -------------
+2642726       $   13,159.00
+7677479       $    2,000.00
+7826662       $    6,791.44
+8431710       $    5,291.44
+8866782       $    3,000.00
+
+(5 rows affected)
+
+studentNumber Invoice Total
+------------- -------------
+2642726       $   13,159.00
+7826662       $    6,791.44
+8866782       $    3,000.00
+7677479       $    2,000.00
+
+(4 rows affected)
+
+
+-----------
+434
+
+(1 row affected)
+
+UniqueFirstLetterOfLastName
+---------------------------
+24
+
+(1 row affected)
+
+     
+---- -----------
+A    18
+B    34
+C    32
+D    25
+E    8
+F    18
+G    17
+H    23
+I    4
+J    10
+K    26
+L    26
+M    36
+N    6
+O    7
+P    26
+R    18
+S    35
+T    21
+U    1
+V    11
+W    21
+Y    2
+Z    9
+NULL 434
+
+(25 rows affected)
+
+
+-----------
+420
+
+(1 row affected)
+
+     
+---- -----------
+A    17
+B    34
+C    32
+D    24
+E    8
+F    18
+G    17
+H    22
+I    4
+J    10
+K    23
+L    25
+M    36
+N    6
+O    7
+P    26
+R    18
+S    33
+T    20
+U    1
+V    11
+W    19
+Y    1
+Z    8
+NULL 420
+
+(25 rows affected)
+
+
+-----------
+44
+
+(1 row affected)
+
+     
+---- -----------
+A    3
+B    2
+C    2
+D    3
+F    2
+G    2
+H    2
+J    1
+K    3
+L    5
+M    2
+P    1
+R    4
+S    2
+T    2
+W    3
+Z    5
+NULL 44
+
+(18 rows affected)
+
+     
+---- -----------
+A    3
+B    2
+C    2
+D    3
+E    0
+F    2
+G    2
+H    2
+I    0
+J    1
+K    3
+L    5
+M    2
+N    0
+O    0
+P    1
+R    4
+S    2
+T    2
+U    0
+V    0
+W    3
+Y    0
+Z    5
+NULL 44
+Warning: Null value is eliminated by an aggregate or other SET operation.
+
+(25 rows affected)
+
+
+Completion time: 2022-01-24T22:31:01.2615874-05:00
