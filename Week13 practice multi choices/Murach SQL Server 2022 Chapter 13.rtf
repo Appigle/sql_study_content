@@ -1,0 +1,1962 @@
+{\rtf1\ansi \deff0{\fonttbl
+{\f0\froman\fcharset0\fprq2 Times New Roman;
+}{\f1\froman\fcharset0\fprq2 Times New Roman;
+}{\f2\fnil\fcharset0\fprq0 Times New Roman;
+}{\f3\fnil\fcharset0\fprq1 Courier New;
+}}{\colortbl;
+\red0\green0\blue0;
+\red0\green0\blue255;
+\red0\green255\blue255;
+\red0\green255\blue0;
+\red255\green0\blue255;
+\red255\green0\blue0;
+\red255\green255\blue0;
+\red255\green255\blue255;
+\red0\green0\blue128;
+\red0\green128\blue0;
+\red128\green0\blue128;
+\red128\green0\blue0;
+\red128\green128\blue0;
+\red128\green128\blue128;
+\red192\green192\blue192;
+}\hyphauto1\deflang1033
+\marglsxn2070\margrsxn1080\margtsxn720\margbsxn1440\cols1\endnhere\colno1\colw9090\pard
+\brdrb\brdrs\brdrw120\brdrcf1
+\nowidctlpar\hyphpar0
+\li-630\ri0\fi0
+\ql\plain \b \f0
+\fs28
+\cf1
+{Chapter 13: How to work with views\par
+}\plain \b \f0
+\fs28
+\cf1
+{Murach's SQL Server 2022 for Developers}\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs36
+\cf1
+{\par
+}\plain \f1
+\fs36
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li-630\ri0\fi0
+\ql\plain \b \f1
+\fs22
+\cf1
+{MULTIPLE CHOICE}\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs22
+\cf1
+{\par
+}\plain \f1
+\fs22
+\cf1
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi-630
+\ql\sa120\tqr\tx-180\tx0
+{\tab }\plain \f1
+\fs22
+\cf1
+{1.}{\tab }\plain \f1
+\fs22
+\cf1
+\plain \f2
+\fs22
+\cf1
+{Each of the following is a benefit provided by using views }\plain \i \f2
+\fs22
+\cf1
+{except}\plain \f2
+\fs22
+\cf1
+{ which of the following?.\par
+}\plain \f1
+\fs22
+\cf1
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{a.}{\cell
+}\plain \f2
+\fs22
+\cf1
+{you can simplify data retrieval by hiding multiple join conditions}\plain \f1
+\fs22
+\cf1
+{\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{b.}{\cell
+}\plain \f2
+\fs22
+\cf1
+{you can provide secure access to data by creating views that provide access only
+ to certain columns or rows}\plain \f1
+\fs22
+\cf1
+{\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{c.}{\cell
+}\plain \f2
+\fs22
+\cf1
+{you can create a view that simplifies data insertion by hiding a complex INSERT 
+statement within the view}\plain \f1
+\fs22
+\cf1
+{\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{d.}{\cell
+}\plain \f2
+\fs22
+\cf1
+{you can create custom views to accommodate different needs}\plain \f1
+\fs22
+\cf1
+{\cell
+}\row
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\sa1\plain \f1
+\fs12
+\cf1
+{\par
+}\plain \f1
+\fs12
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\tx0\tx634\tx1958\tx2592\tx3916\tx4550\tx5874\tx6508
+\plain \f1
+\fs22
+\cf1
+{ANS:\tab }\plain \f1
+\fs22
+\cf1
+{C\tab }\plain \f1
+\fs22
+\cf1
+{PTS:\tab }\plain \f1
+\fs22
+\cf1
+{1}\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs22
+\cf1
+{\par
+}\plain \f1
+\fs22
+\cf1
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi-630
+\ql\sa120\tqr\tx-180\tx0
+{\tab }\plain \f1
+\fs22
+\cf1
+{2.}{\tab }\plain \f1
+\fs22
+\cf1
+{The WITH ENCRYPTION clause of the CREATE VIEW statement is used to...\par
+}\plain \f1
+\fs22
+\cf1
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{a.}{\cell
+}{prevent users from modifying the view\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{b.}{\cell
+}{prevent users from seeing the code that defines the view\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{c.}{\cell
+}{prevent users from using the view without the appropriate authorization\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{d.}{\cell
+}{encrypt the data that\'92
+s returned by the view\cell
+}\row
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\sa1\plain \f1
+\fs12
+\cf1
+{\par
+}\plain \f1
+\fs12
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\tx0\tx634\tx1958\tx2592\tx3916\tx4550\tx5874\tx6508
+\plain \f1
+\fs22
+\cf1
+{ANS:\tab }\plain \f1
+\fs22
+\cf1
+{B\tab }\plain \f1
+\fs22
+\cf1
+{PTS:\tab }\plain \f1
+\fs22
+\cf1
+{1}\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs22
+\cf1
+{\par
+}\plain \f1
+\fs22
+\cf1
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi-630
+\ql\sa120\tqr\tx-180\tx0
+{\tab }\plain \f1
+\fs22
+\cf1
+{3.}{\tab }\plain \f1
+\fs22
+\cf1
+\plain \f2
+\fs22
+\cf1
+{The WITH SCHEMABINDING clause of the CREATE VIEW statement is used to...\par
+}\plain \f1
+\fs22
+\cf1
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{a.}{\cell
+}{bind the view to the master database\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{b.}{\cell
+}\plain \f2
+\fs22
+\cf1
+{allow the tables that the view is based to be deleted}\plain \f1
+\fs22
+\cf1
+{\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{c.}{\cell
+}\plain \f2
+\fs22
+\cf1
+{allow the tables that the view is based on to be modified}\plain \f1
+\fs22
+\cf1
+{\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{d.}{\cell
+}\plain \f2
+\fs22
+\cf1
+{protect the view by binding it to the database schema}\plain \f1
+\fs22
+\cf1
+{\cell
+}\row
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\sa1\plain \f1
+\fs12
+\cf1
+{\par
+}\plain \f1
+\fs12
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\tx0\tx634\tx1958\tx2592\tx3916\tx4550\tx5874\tx6508
+\plain \f1
+\fs22
+\cf1
+{ANS:\tab }\plain \f1
+\fs22
+\cf1
+{D\tab }\plain \f1
+\fs22
+\cf1
+{PTS:\tab }\plain \f1
+\fs22
+\cf1
+{1}\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs22
+\cf1
+{\par
+}\plain \f1
+\fs22
+\cf1
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi-630
+\ql\sa120\tqr\tx-180\tx0
+{\tab }\plain \f1
+\fs22
+\cf1
+{4.}{\tab }\plain \f1
+\fs22
+\cf1
+{The WITH CHECK option of the CREATE VIEW statement is used to...\par
+}\plain \f1
+\fs22
+\cf1
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{a.}{\cell
+}{prevent users from using the view without the appropriate authorization\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{b.}{\cell
+}{prevent an update from being performed through the view if it causes a row to n
+o longer be included in the view\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{c.}{\cell
+}{prevent rows from being deleted through the view\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{d.}{\cell
+}{prevent rows from being inserted through the view\cell
+}\row
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\sa1\plain \f1
+\fs12
+\cf1
+{\par
+}\plain \f1
+\fs12
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\tx0\tx634\tx1958\tx2592\tx3916\tx4550\tx5874\tx6508
+\plain \f1
+\fs22
+\cf1
+{ANS:\tab }\plain \f1
+\fs22
+\cf1
+{B\tab }\plain \f1
+\fs22
+\cf1
+{PTS:\tab }\plain \f1
+\fs22
+\cf1
+{1}\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs22
+\cf1
+{\par
+}\plain \f1
+\fs22
+\cf1
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi-630
+\ql\sa120\tqr\tx-180\tx0
+{\tab }\plain \f1
+\fs22
+\cf1
+{5.}{\tab }\plain \f1
+\fs22
+\cf1
+\plain \f2
+\fs22
+\cf1
+{What will happen when the statement below is run?\par
+}\plain \f2
+\fs22
+\cf1
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql\plain \b \f3
+\fs18
+\cf1
+{CREATE VIEW Example1\par
+}\plain \b \f3
+\fs18
+\cf1
+{AS\par
+}\plain \b \f3
+\fs18
+\cf1
+{SELECT VendorName, SUM(InvoiceTotal) AS SumOfInvoices\par
+}\plain \b \f3
+\fs18
+\cf1
+{FROM Vendors v\par
+}\plain \b \f3
+\fs18
+\cf1
+{  JOIN Invoices i\par
+}\plain \b \f3
+\fs18
+\cf1
+{    ON v.VendorID = i.VendorID\par
+}\plain \b \f3
+\fs18
+\cf1
+{GROUP BY VendorName\par
+}\plain \b \f3
+\fs18
+\cf1
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql\sa120{ORDER BY VendorName;\par
+}\plain \f1
+\fs22
+\cf1
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{a.}{\cell
+}\plain \f2
+\fs22
+\cf1
+{it will fail because the GROUP BY clause isn\'92
+t allowed with this code}\plain \f1
+\fs22
+\cf1
+{\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{b.}{\cell
+}\plain \f2
+\fs22
+\cf1
+{it will fail because the column alias SumOfInvoices is invalid}\plain \f1
+\fs22
+\cf1
+{\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{c.}{\cell
+}\plain \f2
+\fs22
+\cf1
+{it will fail because the ORDER BY clause isn\'92
+t allowed with this code}\plain \f1
+\fs22
+\cf1
+{\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{d.}{\cell
+}\plain \f2
+\fs22
+\cf1
+{it will succeed}\plain \f1
+\fs22
+\cf1
+{\cell
+}\row
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\sa1\plain \f1
+\fs12
+\cf1
+{\par
+}\plain \f1
+\fs12
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\tx0\tx634\tx1958\tx2592\tx3916\tx4550\tx5874\tx6508
+\plain \f1
+\fs22
+\cf1
+{ANS:\tab }\plain \f1
+\fs22
+\cf1
+{C\tab }\plain \f1
+\fs22
+\cf1
+{PTS:\tab }\plain \f1
+\fs22
+\cf1
+{1}\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs22
+\cf1
+{\par
+}\plain \f1
+\fs22
+\cf1
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi-630
+\ql\sa120\tqr\tx-180\tx0
+{\tab }\plain \f1
+\fs22
+\cf1
+{6.}{\tab }\plain \f1
+\fs22
+\cf1
+\plain \f2
+\fs22
+\cf1
+{What will happen when the statement below is run?\par
+}\plain \f2
+\fs22
+\cf1
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql\plain \b \f3
+\fs18
+\cf1
+{CREATE VIEW Example2\par
+}\plain \b \f3
+\fs18
+\cf1
+{AS\par
+}\plain \b \f3
+\fs18
+\cf1
+{SELECT InvoiceNumber,\par
+}\plain \b \f3
+\fs18
+\cf1
+{       DATEDIFF(day,InvoiceDate,InvoiceDueDate)\par
+}\plain \b \f3
+\fs18
+\cf1
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql\sa120{FROM Invoices;\par
+}\plain \f1
+\fs22
+\cf1
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{a.}{\cell
+}\plain \f2
+\fs22
+\cf1
+{it will create an updatable view}\plain \f1
+\fs22
+\cf1
+{\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{b.}{\cell
+}\plain \f2
+\fs22
+\cf1
+{it will create a read-only view because of a calculated value}\plain \f1
+\fs22
+\cf1
+{\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{c.}{\cell
+}\plain \f2
+\fs22
+\cf1
+{it will fail because the second column isn\'92
+t named}\plain \f1
+\fs22
+\cf1
+{\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{d.}{\cell
+}\plain \f2
+\fs22
+\cf1
+{it will create a view through which you can delete rows, but not insert or updat
+e rows}\plain \f1
+\fs22
+\cf1
+{\cell
+}\row
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\sa1\plain \f1
+\fs12
+\cf1
+{\par
+}\plain \f1
+\fs12
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\tx0\tx634\tx1958\tx2592\tx3916\tx4550\tx5874\tx6508
+\plain \f1
+\fs22
+\cf1
+{ANS:\tab }\plain \f1
+\fs22
+\cf1
+{C\tab }\plain \f1
+\fs22
+\cf1
+{PTS:\tab }\plain \f1
+\fs22
+\cf1
+{1}\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs22
+\cf1
+{\par
+}\plain \f1
+\fs22
+\cf1
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi-630
+\ql\sa120\tqr\tx-180\tx0
+{\tab }\plain \f1
+\fs22
+\cf1
+{7.}{\tab }\plain \f1
+\fs22
+\cf1
+\plain \f2
+\fs22
+\cf1
+{What will happen when the statement below is run?\par
+}\plain \f2
+\fs22
+\cf1
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql\plain \b \f3
+\fs18
+\cf1
+{CREATE VIEW Example3\par
+}\plain \b \f3
+\fs18
+\cf1
+{AS\par
+}\plain \b \f3
+\fs18
+\cf1
+{SELECT *\par
+}\plain \b \f3
+\fs18
+\cf1
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql\sa120{FROM Invoices;\par
+}\plain \f1
+\fs22
+\cf1
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{a.}{\cell
+}\plain \f2
+\fs22
+\cf1
+{it will create an updatable view}\plain \f1
+\fs22
+\cf1
+{\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{b.}{\cell
+}\plain \f2
+\fs22
+\cf1
+{it will create a read-only view}\plain \f1
+\fs22
+\cf1
+{\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{c.}{\cell
+}\plain \f2
+\fs22
+\cf1
+{it will fail because the * operator isn\'92
+t allowed}\plain \f1
+\fs22
+\cf1
+{\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{d.}{\cell
+}\plain \f2
+\fs22
+\cf1
+{it will create a view through which you can delete rows, but not insert or updat
+e rows}\plain \f1
+\fs22
+\cf1
+{\cell
+}\row
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\sa1\plain \f1
+\fs12
+\cf1
+{\par
+}\plain \f1
+\fs12
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\tx0\tx634\tx1958\tx2592\tx3916\tx4550\tx5874\tx6508
+\plain \f1
+\fs22
+\cf1
+{ANS:\tab }\plain \f1
+\fs22
+\cf1
+{A\tab }\plain \f1
+\fs22
+\cf1
+{PTS:\tab }\plain \f1
+\fs22
+\cf1
+{1}\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs22
+\cf1
+{\par
+}\plain \f1
+\fs22
+\cf1
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi-630
+\ql\sa120\tqr\tx-180\tx0
+{\tab }\plain \f1
+\fs22
+\cf1
+{8.}{\tab }\plain \f1
+\fs22
+\cf1
+\plain \f2
+\fs22
+\cf1
+{A view is a/an ________________ statement that\'92
+s stored as an object in the data
+base.\par
+}\plain \f1
+\fs22
+\cf1
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx4185
+\clvertalt
+\cellx4545
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{a.}{\cell
+}{SELECT\cell
+}{c.}{\cell
+}{INSERT\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx4185
+\clvertalt
+\cellx4545
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{b.}{\cell
+}{UPDATE\cell
+}{d.}{\cell
+}{DELETE\cell
+}\row
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\sa1\plain \f1
+\fs12
+\cf1
+{\par
+}\plain \f1
+\fs12
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\tx0\tx634\tx1958\tx2592\tx3916\tx4550\tx5874\tx6508
+\plain \f1
+\fs22
+\cf1
+{ANS:\tab }\plain \f1
+\fs22
+\cf1
+{A\tab }\plain \f1
+\fs22
+\cf1
+{PTS:\tab }\plain \f1
+\fs22
+\cf1
+{1}\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs22
+\cf1
+{\par
+}\plain \f1
+\fs22
+\cf1
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi-630
+\ql\sa120\tqr\tx-180\tx0
+{\tab }\plain \f1
+\fs22
+\cf1
+{9.}{\tab }\plain \f1
+\fs22
+\cf1
+{A table that\'92
+s used to create a view is called...\par
+}\plain \f1
+\fs22
+\cf1
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx4185
+\clvertalt
+\cellx4545
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{a.}{\cell
+}{a viewed table\cell
+}{c.}{\cell
+}{a temporary table\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx4185
+\clvertalt
+\cellx4545
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{b.}{\cell
+}{a base table\cell
+}{d.}{\cell
+}{an OFFSET table\cell
+}\row
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\sa1\plain \f1
+\fs12
+\cf1
+{\par
+}\plain \f1
+\fs12
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\tx0\tx634\tx1958\tx2592\tx3916\tx4550\tx5874\tx6508
+\plain \f1
+\fs22
+\cf1
+{ANS:\tab }\plain \f1
+\fs22
+\cf1
+{B\tab }\plain \f1
+\fs22
+\cf1
+{PTS:\tab }\plain \f1
+\fs22
+\cf1
+{1}\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs22
+\cf1
+{\par
+}\plain \f1
+\fs22
+\cf1
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi-630
+\ql\sa120\tqr\tx-180\tx0
+{\tab }\plain \f1
+\fs22
+\cf1
+{10.}{\tab }\plain \f1
+\fs22
+\cf1
+\plain \f2
+\fs22
+\cf1
+{Which statement do you use to modify an existing view?\par
+}\plain \f1
+\fs22
+\cf1
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx4185
+\clvertalt
+\cellx4545
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{a.}{\cell
+}{UPDATE\cell
+}{c.}{\cell
+}{CREATE VIEW\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx4185
+\clvertalt
+\cellx4545
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{b.}{\cell
+}{WITH SCHEMABINDING\cell
+}{d.}{\cell
+}{ALTER VIEW\cell
+}\row
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\sa1\plain \f1
+\fs12
+\cf1
+{\par
+}\plain \f1
+\fs12
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\tx0\tx634\tx1958\tx2592\tx3916\tx4550\tx5874\tx6508
+\plain \f1
+\fs22
+\cf1
+{ANS:\tab }\plain \f1
+\fs22
+\cf1
+{D\tab }\plain \f1
+\fs22
+\cf1
+{PTS:\tab }\plain \f1
+\fs22
+\cf1
+{1}\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs22
+\cf1
+{\par
+}\plain \f1
+\fs22
+\cf1
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi-630
+\ql\sa120\tqr\tx-180\tx0
+{\tab }\plain \f1
+\fs22
+\cf1
+{11.}{\tab }\plain \f1
+\fs22
+\cf1
+{Which statement do you use to delete an existing view?\par
+}\plain \f1
+\fs22
+\cf1
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx4185
+\clvertalt
+\cellx4545
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{a.}{\cell
+}{CREATE VIEW\cell
+}{c.}{\cell
+}{DROP VIEW\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx4185
+\clvertalt
+\cellx4545
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{b.}{\cell
+}{ALTER VIEW\cell
+}{d.}{\cell
+}{DELETE VIEW\cell
+}\row
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\sa1\plain \f1
+\fs12
+\cf1
+{\par
+}\plain \f1
+\fs12
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\tx0\tx634\tx1958\tx2592\tx3916\tx4550\tx5874\tx6508
+\plain \f1
+\fs22
+\cf1
+{ANS:\tab }\plain \f1
+\fs22
+\cf1
+{C\tab }\plain \f1
+\fs22
+\cf1
+{PTS:\tab }\plain \f1
+\fs22
+\cf1
+{1}\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs22
+\cf1
+{\par
+}\plain \f1
+\fs22
+\cf1
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi-630
+\ql\sa120\tqr\tx-180\tx0
+{\tab }\plain \f1
+\fs22
+\cf1
+{12.}{\tab }\plain \f1
+\fs22
+\cf1
+\plain \f2
+\fs22
+\cf1
+{All of the system objects that define a database are listed in...\par
+}\plain \f1
+\fs22
+\cf1
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx4185
+\clvertalt
+\cellx4545
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{a.}{\cell
+}{a system catalog\cell
+}{c.}{\cell
+}{an information schema view\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx4185
+\clvertalt
+\cellx4545
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{b.}{\cell
+}{a catalog view\cell
+}{d.}{\cell
+}{a derived view\cell
+}\row
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\sa1\plain \f1
+\fs12
+\cf1
+{\par
+}\plain \f1
+\fs12
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\tx0\tx634\tx1958\tx2592\tx3916\tx4550\tx5874\tx6508
+\plain \f1
+\fs22
+\cf1
+{ANS:\tab }\plain \f1
+\fs22
+\cf1
+{A\tab }\plain \f1
+\fs22
+\cf1
+{PTS:\tab }\plain \f1
+\fs22
+\cf1
+{1}\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs22
+\cf1
+{\par
+}\plain \f1
+\fs22
+\cf1
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi-630
+\ql\sa120\tqr\tx-180\tx0
+{\tab }\plain \f1
+\fs22
+\cf1
+{13.}{\tab }\plain \f1
+\fs22
+\cf1
+{Which of the following statements is true?\par
+}\plain \f1
+\fs22
+\cf1
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{a.}{\cell
+}{a view can consist of multiple independent statements\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{b.}{\cell
+}{a view can accept multiple parameters\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{c.}{\cell
+}{views can store data\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{d.}{\cell
+}{views are like virtual tables \cell
+}\row
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\sa1\plain \f1
+\fs12
+\cf1
+{\par
+}\plain \f1
+\fs12
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\tx0\tx634\tx1958\tx2592\tx3916\tx4550\tx5874\tx6508
+\plain \f1
+\fs22
+\cf1
+{ANS:\tab }\plain \f1
+\fs22
+\cf1
+{D\tab }\plain \f1
+\fs22
+\cf1
+{PTS:\tab }\plain \f1
+\fs22
+\cf1
+{1}\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs22
+\cf1
+{\par
+}\plain \f1
+\fs22
+\cf1
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi-630
+\ql\sa120\tqr\tx-180\tx0
+{\tab }\plain \f1
+\fs22
+\cf1
+{14.}{\tab }\plain \f1
+\fs22
+\cf1
+{You can code views that...\par
+}\plain \f1
+\fs22
+\cf1
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx4185
+\clvertalt
+\cellx4545
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{a.}{\cell
+}{modify all underlying base tables\cell
+}{c.}{\cell
+}{use subqueries and functions\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx4185
+\clvertalt
+\cellx4545
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{b.}{\cell
+}{return multiple result sets\cell
+}{d.}{\cell
+}{accept parameters\cell
+}\row
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\sa1\plain \f1
+\fs12
+\cf1
+{\par
+}\plain \f1
+\fs12
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\tx0\tx634\tx1958\tx2592\tx3916\tx4550\tx5874\tx6508
+\plain \f1
+\fs22
+\cf1
+{ANS:\tab }\plain \f1
+\fs22
+\cf1
+{C\tab }\plain \f1
+\fs22
+\cf1
+{PTS:\tab }\plain \f1
+\fs22
+\cf1
+{1}\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs22
+\cf1
+{\par
+}\plain \f1
+\fs22
+\cf1
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi-630
+\ql\sa120\tqr\tx-180\tx0
+{\tab }\plain \f1
+\fs22
+\cf1
+{15.}{\tab }\plain \f1
+\fs22
+\cf1
+{The SELECT statement for a view...\par
+}\plain \f1
+\fs22
+\cf1
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{a.}{\cell
+}{can never include the ORDER BY clause\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{b.}{\cell
+}{must always include the ORDER BY clause\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{c.}{\cell
+}{can use the ORDER BY clause if it also uses the TOP clause\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{d.}{\cell
+}{can\'92
+t use the ORDER BY clause with the OFFSET and FETCH clauses\cell
+}\row
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\sa1\plain \f1
+\fs12
+\cf1
+{\par
+}\plain \f1
+\fs12
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\tx0\tx634\tx1958\tx2592\tx3916\tx4550\tx5874\tx6508
+\plain \f1
+\fs22
+\cf1
+{ANS:\tab }\plain \f1
+\fs22
+\cf1
+{C\tab }\plain \f1
+\fs22
+\cf1
+{PTS:\tab }\plain \f1
+\fs22
+\cf1
+{1\par
+\pard
+}}

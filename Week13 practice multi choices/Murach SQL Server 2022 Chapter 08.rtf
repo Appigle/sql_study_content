@@ -1,0 +1,2836 @@
+{\rtf1\ansi \deff0{\fonttbl
+{\f0\froman\fcharset0\fprq2 Times New Roman;
+}{\f1\froman\fcharset0\fprq2 Times New Roman;
+}{\f2\fnil\fcharset0\fprq0 Times New Roman;
+}{\f3\fmodern\fcharset0\fprq1 Courier New;
+}{\f4\fnil\fcharset0\fprq2 Times New Roman;
+}}{\colortbl;
+\red0\green0\blue0;
+\red0\green0\blue255;
+\red0\green255\blue255;
+\red0\green255\blue0;
+\red255\green0\blue255;
+\red255\green0\blue0;
+\red255\green255\blue0;
+\red255\green255\blue255;
+\red0\green0\blue128;
+\red0\green128\blue0;
+\red128\green0\blue128;
+\red128\green0\blue0;
+\red128\green128\blue0;
+\red128\green128\blue128;
+\red192\green192\blue192;
+}\hyphauto1\deflang1033
+\marglsxn2070\margrsxn1080\margtsxn720\margbsxn1440\cols1\endnhere\colno1\colw9090\pard
+\brdrb\brdrs\brdrw120\brdrcf1
+\nowidctlpar\hyphpar0
+\li-630\ri0\fi0
+\ql\plain \b \f0
+\fs28
+\cf1
+{Chapter 8: How to work with data types\par
+}\plain \b \f0
+\fs28
+\cf1
+{Murach's SQL Server 2022 for Developers}\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs36
+\cf1
+{\par
+}\plain \f1
+\fs36
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li-630\ri0\fi0
+\ql\plain \b \f1
+\fs22
+\cf1
+{MULTIPLE CHOICE}\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs22
+\cf1
+{\par
+}\plain \f1
+\fs22
+\cf1
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi-630
+\ql\sa120\tqr\tx-180\tx0
+{\tab }\plain \f1
+\fs22
+\cf1
+{1.}{\tab }\plain \f1
+\fs22
+\cf1
+\plain \f2
+\fs22
+\cf1
+{All of the following values can be stored in a column that\'92
+s defined as decimal(
+6,2), except...\par
+}\plain \f1
+\fs22
+\cf1
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx4185
+\clvertalt
+\cellx4545
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{a.}{\cell
+}\plain \f2
+\fs22
+\cf1
+{-246.29}\plain \f1
+\fs22
+\cf1
+{\cell
+}{c.}{\cell
+}\plain \f2
+\fs22
+\cf1
+{2479.95}\plain \f1
+\fs22
+\cf1
+{\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx4185
+\clvertalt
+\cellx4545
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{b.}{\cell
+}\plain \f2
+\fs22
+\cf1
+{0}\plain \f1
+\fs22
+\cf1
+{\cell
+}{d.}{\cell
+}\plain \f2
+\fs22
+\cf1
+{32492.05}\plain \f1
+\fs22
+\cf1
+{\cell
+}\row
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\sa1\plain \f1
+\fs12
+\cf1
+{\par
+}\plain \f1
+\fs12
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\tx0\tx634\tx1958\tx2592\tx3916\tx4550\tx5874\tx6508
+\plain \f1
+\fs22
+\cf1
+{ANS:\tab }\plain \f1
+\fs22
+\cf1
+{D\tab }\plain \f1
+\fs22
+\cf1
+{PTS:\tab }\plain \f1
+\fs22
+\cf1
+{1}\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs22
+\cf1
+{\par
+}\plain \f1
+\fs22
+\cf1
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi-630
+\ql\sa120\tqr\tx-180\tx0
+{\tab }\plain \f1
+\fs22
+\cf1
+{2.}{\tab }\plain \f1
+\fs22
+\cf1
+\plain \f2
+\fs22
+\cf1
+{Which string uses the least amount of storage when stored in a column of type nc
+har(20)?\par
+}\plain \f1
+\fs22
+\cf1
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{a.}{\cell
+}\plain \f2
+\fs22
+\cf1
+{'example'}\plain \f1
+\fs22
+\cf1
+{\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{b.}{\cell
+}\plain \f2
+\fs22
+\cf1
+{'exam'}\plain \f1
+\fs22
+\cf1
+{\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{c.}{\cell
+}\plain \f2
+\fs22
+\cf1
+{'ex'}\plain \f1
+\fs22
+\cf1
+{\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{d.}{\cell
+}\plain \f2
+\fs22
+\cf1
+{they all use the same amount of storage}\plain \f1
+\fs22
+\cf1
+{\cell
+}\row
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\sa1\plain \f1
+\fs12
+\cf1
+{\par
+}\plain \f1
+\fs12
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\tx0\tx634\tx1958\tx2592\tx3916\tx4550\tx5874\tx6508
+\plain \f1
+\fs22
+\cf1
+{ANS:\tab }\plain \f1
+\fs22
+\cf1
+{D\tab }\plain \f1
+\fs22
+\cf1
+{PTS:\tab }\plain \f1
+\fs22
+\cf1
+{1}\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs22
+\cf1
+{\par
+}\plain \f1
+\fs22
+\cf1
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi-630
+\ql\sa120\tqr\tx-180\tx0
+{\tab }\plain \f1
+\fs22
+\cf1
+{3.}{\tab }\plain \f1
+\fs22
+\cf1
+\plain \f2
+\fs22
+\cf1
+{Which string uses the least amount of storage when stored in a column of type va
+rchar(20)?\par
+}\plain \f1
+\fs22
+\cf1
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{a.}{\cell
+}\plain \f2
+\fs22
+\cf1
+{'example'}\plain \f1
+\fs22
+\cf1
+{\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{b.}{\cell
+}\plain \f2
+\fs22
+\cf1
+{'exam'}\plain \f1
+\fs22
+\cf1
+{\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{c.}{\cell
+}\plain \f2
+\fs22
+\cf1
+{'ex'}\plain \f1
+\fs22
+\cf1
+{\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{d.}{\cell
+}\plain \f2
+\fs22
+\cf1
+{they all use the same amount of storage}\plain \f1
+\fs22
+\cf1
+{\cell
+}\row
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\sa1\plain \f1
+\fs12
+\cf1
+{\par
+}\plain \f1
+\fs12
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\tx0\tx634\tx1958\tx2592\tx3916\tx4550\tx5874\tx6508
+\plain \f1
+\fs22
+\cf1
+{ANS:\tab }\plain \f1
+\fs22
+\cf1
+{C\tab }\plain \f1
+\fs22
+\cf1
+{PTS:\tab }\plain \f1
+\fs22
+\cf1
+{1}\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs22
+\cf1
+{\par
+}\plain \f1
+\fs22
+\cf1
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi-630
+\ql\sa120\tqr\tx-180\tx0
+{\tab }\plain \f1
+\fs22
+\cf1
+{4.}{\tab }\plain \f1
+\fs22
+\cf1
+\plain \f2
+\fs22
+\cf1
+{Which data type can you use to store a date value without storing a time value?\par
+}\plain \f1
+\fs22
+\cf1
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx4185
+\clvertalt
+\cellx4545
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{a.}{\cell
+}\plain \f2
+\fs22
+\cf1
+{time}\plain \f1
+\fs22
+\cf1
+{\cell
+}{c.}{\cell
+}\plain \f2
+\fs22
+\cf1
+{datetime}\plain \f1
+\fs22
+\cf1
+{\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx4185
+\clvertalt
+\cellx4545
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{b.}{\cell
+}\plain \f2
+\fs22
+\cf1
+{date}\plain \f1
+\fs22
+\cf1
+{\cell
+}{d.}{\cell
+}{datetime2\cell
+}\row
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\sa1\plain \f1
+\fs12
+\cf1
+{\par
+}\plain \f1
+\fs12
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\tx0\tx634\tx1958\tx2592\tx3916\tx4550\tx5874\tx6508
+\plain \f1
+\fs22
+\cf1
+{ANS:\tab }\plain \f1
+\fs22
+\cf1
+{B\tab }\plain \f1
+\fs22
+\cf1
+{PTS:\tab }\plain \f1
+\fs22
+\cf1
+{1}\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs22
+\cf1
+{\par
+}\plain \f1
+\fs22
+\cf1
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi-630
+\ql\sa120\tqr\tx-180\tx0
+{\tab }\plain \f1
+\fs22
+\cf1
+{5.}{\tab }\plain \f1
+\fs22
+\cf1
+\plain \f2
+\fs22
+\cf1
+{Which of the following statements is true?\par
+}\plain \f1
+\fs22
+\cf1
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{a.}{\cell
+}\plain \f2
+\fs22
+\cf1
+{implicit data type conversion is performed when you mix values of different data
+ types in an expression}\plain \f1
+\fs22
+\cf1
+{\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{b.}{\cell
+}\plain \f2
+\fs22
+\cf1
+{every data type can be implicitly converted to every other data type}\plain \f1
+\fs22
+\cf1
+{\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{c.}{\cell
+}\plain \f2
+\fs22
+\cf1
+{values are always implicitly converted from the data type with higher precedence
+ to the data type with lower precedence}\plain \f1
+\fs22
+\cf1
+{\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{d.}{\cell
+}\plain \f2
+\fs22
+\cf1
+{you can convert a data type implicitly by using either the CAST or the CONVERT f
+unction}\plain \f1
+\fs22
+\cf1
+{\cell
+}\row
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\sa1\plain \f1
+\fs12
+\cf1
+{\par
+}\plain \f1
+\fs12
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\tx0\tx634\tx1958\tx2592\tx3916\tx4550\tx5874\tx6508
+\plain \f1
+\fs22
+\cf1
+{ANS:\tab }\plain \f1
+\fs22
+\cf1
+{A\tab }\plain \f1
+\fs22
+\cf1
+{PTS:\tab }\plain \f1
+\fs22
+\cf1
+{1}\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs22
+\cf1
+{\par
+}\plain \f1
+\fs22
+\cf1
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi-630
+\ql\sa120\tqr\tx-180\tx0
+{\tab }\plain \f1
+\fs22
+\cf1
+{6.}{\tab }\plain \f1
+\fs22
+\cf1
+{Which of the following statements is true about both the CONVERT and TRY_CONVERT
+ functions?\par
+}\plain \f1
+\fs22
+\cf1
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{a.}{\cell
+}{CONVERT can format the result of a conversion, but TRY_CONVERT can\'92
+t.\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{b.}{\cell
+}{CONVERT can be used with any data type, but TRY_CONVERT can\'92
+t.\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{c.}{\cell
+}{CONVERT returns an error if the expression can\'92
+t be converted, but TRY_CONVERT 
+returns a NULL value.\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{d.}{\cell
+}{CONVERT is an ANSI-standard function, but TRY_CONVERT is not.\cell
+}\row
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\sa1\plain \f1
+\fs12
+\cf1
+{\par
+}\plain \f1
+\fs12
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\tx0\tx634\tx1958\tx2592\tx3916\tx4550\tx5874\tx6508
+\plain \f1
+\fs22
+\cf1
+{ANS:\tab }\plain \f1
+\fs22
+\cf1
+{C\tab }\plain \f1
+\fs22
+\cf1
+{PTS:\tab }\plain \f1
+\fs22
+\cf1
+{1}\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs22
+\cf1
+{\par
+}\plain \f1
+\fs22
+\cf1
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi-630
+\ql\sa120\tqr\tx-180\tx0
+{\tab }\plain \f1
+\fs22
+\cf1
+{7.}{\tab }\plain \f1
+\fs22
+\cf1
+\plain \f2
+\fs22
+\cf1
+{Which data type is only used to store whole numbers?\par
+}\plain \f1
+\fs22
+\cf1
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx4185
+\clvertalt
+\cellx4545
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{a.}{\cell
+}{int\cell
+}{c.}{\cell
+}{real\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx4185
+\clvertalt
+\cellx4545
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{b.}{\cell
+}{decimal\cell
+}{d.}{\cell
+}{string\cell
+}\row
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\sa1\plain \f1
+\fs12
+\cf1
+{\par
+}\plain \f1
+\fs12
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\tx0\tx634\tx1958\tx2592\tx3916\tx4550\tx5874\tx6508
+\plain \f1
+\fs22
+\cf1
+{ANS:\tab }\plain \f1
+\fs22
+\cf1
+{A\tab }\plain \f1
+\fs22
+\cf1
+{PTS:\tab }\plain \f1
+\fs22
+\cf1
+{1}\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs22
+\cf1
+{\par
+}\plain \f1
+\fs22
+\cf1
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi-630
+\ql\sa120\tqr\tx-180\tx0
+{\tab }\plain \f1
+\fs22
+\cf1
+{8.}{\tab }\plain \f1
+\fs22
+\cf1
+\plain \f2
+\fs22
+\cf1
+{The _____________________ of a decimal value indicates the total number of digit
+s that can be stored in a decimal data type.\par
+}\plain \f1
+\fs22
+\cf1
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx4185
+\clvertalt
+\cellx4545
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{a.}{\cell
+}{scale\cell
+}{c.}{\cell
+}{Unicode specification\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx4185
+\clvertalt
+\cellx4545
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{b.}{\cell
+}{precision\cell
+}{d.}{\cell
+}{ASCII\cell
+}\row
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\sa1\plain \f1
+\fs12
+\cf1
+{\par
+}\plain \f1
+\fs12
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\tx0\tx634\tx1958\tx2592\tx3916\tx4550\tx5874\tx6508
+\plain \f1
+\fs22
+\cf1
+{ANS:\tab }\plain \f1
+\fs22
+\cf1
+{B\tab }\plain \f1
+\fs22
+\cf1
+{PTS:\tab }\plain \f1
+\fs22
+\cf1
+{1}\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs22
+\cf1
+{\par
+}\plain \f1
+\fs22
+\cf1
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi-630
+\ql\sa120\tqr\tx-180\tx0
+{\tab }\plain \f1
+\fs22
+\cf1
+{9.}{\tab }\plain \f1
+\fs22
+\cf1
+\plain \f2
+\fs22
+\cf1
+{____________________ characters can be used with the default collation to encode
+ most of the characters in most of the world\'92
+s writing systems.\par
+}\plain \f1
+\fs22
+\cf1
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx4185
+\clvertalt
+\cellx4545
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{a.}{\cell
+}{ASCII\cell
+}{c.}{\cell
+}{Unicode\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx4185
+\clvertalt
+\cellx4545
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{b.}{\cell
+}{fixed-length string\cell
+}{d.}{\cell
+}{variable-length string\cell
+}\row
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\sa1\plain \f1
+\fs12
+\cf1
+{\par
+}\plain \f1
+\fs12
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\tx0\tx634\tx1958\tx2592\tx3916\tx4550\tx5874\tx6508
+\plain \f1
+\fs22
+\cf1
+{ANS:\tab }\plain \f1
+\fs22
+\cf1
+{C\tab }\plain \f1
+\fs22
+\cf1
+{PTS:\tab }\plain \f1
+\fs22
+\cf1
+{1}\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs22
+\cf1
+{\par
+}\plain \f1
+\fs22
+\cf1
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi-630
+\ql\sa120\tqr\tx-180\tx0
+{\tab }\plain \f1
+\fs22
+\cf1
+{10.}{\tab }\plain \f1
+\fs22
+\cf1
+\plain \f2
+\fs22
+\cf1
+{Which data type can you use to store a date that includes a time zone offset?\par
+}\plain \f1
+\fs22
+\cf1
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx4185
+\clvertalt
+\cellx4545
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{a.}{\cell
+}{time\cell
+}{c.}{\cell
+}{datetime2\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx4185
+\clvertalt
+\cellx4545
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{b.}{\cell
+}{smalldatetime\cell
+}{d.}{\cell
+}{datetimeoffset\cell
+}\row
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\sa1\plain \f1
+\fs12
+\cf1
+{\par
+}\plain \f1
+\fs12
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\tx0\tx634\tx1958\tx2592\tx3916\tx4550\tx5874\tx6508
+\plain \f1
+\fs22
+\cf1
+{ANS:\tab }\plain \f1
+\fs22
+\cf1
+{D\tab }\plain \f1
+\fs22
+\cf1
+{PTS:\tab }\plain \f1
+\fs22
+\cf1
+{1}\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs22
+\cf1
+{\par
+}\plain \f1
+\fs22
+\cf1
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi-630
+\ql\sa120\tqr\tx-180\tx0
+{\tab }\plain \f1
+\fs22
+\cf1
+{11.}{\tab }\plain \f1
+\fs22
+\cf1
+\plain \f2
+\fs22
+\cf1
+{The difference between the CAST function and the CONVERT function is that the __
+______________ function accepts an optional style argument that lets you specify 
+a format for the result\par
+}\plain \f1
+\fs22
+\cf1
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx4185
+\clvertalt
+\cellx4545
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{a.}{\cell
+}{CONVERT\cell
+}{c.}{\cell
+}{They are both the same\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx4185
+\clvertalt
+\cellx4545
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{b.}{\cell
+}{CAST\cell
+}{d.}{\cell
+}{Neither accepts an optional style argument\cell
+}\row
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\sa1\plain \f1
+\fs12
+\cf1
+{\par
+}\plain \f1
+\fs12
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\tx0\tx634\tx1958\tx2592\tx3916\tx4550\tx5874\tx6508
+\plain \f1
+\fs22
+\cf1
+{ANS:\tab }\plain \f1
+\fs22
+\cf1
+{A\tab }\plain \f1
+\fs22
+\cf1
+{PTS:\tab }\plain \f1
+\fs22
+\cf1
+{1}\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs22
+\cf1
+{\par
+}\plain \f1
+\fs22
+\cf1
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi-630
+\ql\sa120\tqr\tx-180\tx0
+{\tab }\plain \f1
+\fs22
+\cf1
+{12.}{\tab }\plain \f1
+\fs22
+\cf1
+\plain \f2
+\fs22
+\cf1
+{Which of the following casts a decimal column named InvoiceAmount to the varchar
+ type?\par
+}\plain \f1
+\fs22
+\cf1
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{a.}{\cell
+}\plain \b \f3
+\fs18
+\cf1
+{CAST(varcharDate, InvoiceAmount) AS varchar\cell
+}\row
+\plain \f1
+\fs22
+\cf1
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{b.}{\cell
+}\plain \b \f3
+\fs18
+\cf1
+{CAST(InvoiceAmount AS varchar)\cell
+}\row
+\plain \f1
+\fs22
+\cf1
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{c.}{\cell
+}\plain \b \f3
+\fs18
+\cf1
+{CAST(varcharDate, InvoiceAmount, 107.25) as varchar\cell
+}\row
+\plain \f1
+\fs22
+\cf1
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{d.}{\cell
+}\plain \b \f3
+\fs18
+\cf1
+{CAST(InvoiceAmount = varchar)}\plain \f1
+\fs22
+\cf1
+{\cell
+}\row
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\sa1\plain \f1
+\fs12
+\cf1
+{\par
+}\plain \f1
+\fs12
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\tx0\tx634\tx1958\tx2592\tx3916\tx4550\tx5874\tx6508
+\plain \f1
+\fs22
+\cf1
+{ANS:\tab }\plain \f1
+\fs22
+\cf1
+{B\tab }\plain \f1
+\fs22
+\cf1
+{PTS:\tab }\plain \f1
+\fs22
+\cf1
+{1}\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs22
+\cf1
+{\par
+}\plain \f1
+\fs22
+\cf1
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi-630
+\ql\sa120\tqr\tx-180\tx0
+{\tab }\plain \f1
+\fs22
+\cf1
+{13.}{\tab }\plain \f1
+\fs22
+\cf1
+\plain \f2
+\fs22
+\cf1
+{Which ORDER BY clause sorts a table into numeric sequence by the data in the Par
+tCode column if that column contains whole numbers that are stored with the varch
+ar data type?\par
+}\plain \f1
+\fs22
+\cf1
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{a.}{\cell
+}\plain \b \f3
+\fs18
+\cf1
+{ORDER BY CAST (PartCode AS char)\cell
+}\row
+\plain \f1
+\fs22
+\cf1
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{b.}{\cell
+}\plain \b \f3
+\fs18
+\cf1
+{ORDERBY CAST (PartCode)\cell
+}\row
+\plain \f1
+\fs22
+\cf1
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{c.}{\cell
+}\plain \b \f3
+\fs18
+\cf1
+{ORDER BY CAST (PartCode AS int)\cell
+}\row
+\plain \f1
+\fs22
+\cf1
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{d.}{\cell
+}\plain \b \f3
+\fs18
+\cf1
+{CAST (PartCode AS int) ORDER BY PartCode}\plain \f1
+\fs22
+\cf1
+{\cell
+}\row
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\sa1\plain \f1
+\fs12
+\cf1
+{\par
+}\plain \f1
+\fs12
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\tx0\tx634\tx1958\tx2592\tx3916\tx4550\tx5874\tx6508
+\plain \f1
+\fs22
+\cf1
+{ANS:\tab }\plain \f1
+\fs22
+\cf1
+{C\tab }\plain \f1
+\fs22
+\cf1
+{PTS:\tab }\plain \f1
+\fs22
+\cf1
+{1}\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs22
+\cf1
+{\par
+}\plain \f1
+\fs22
+\cf1
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi-630
+\ql\sa120\tqr\tx-180\tx0
+{\tab }\plain \f1
+\fs22
+\cf1
+{14.}{\tab }\plain \f1
+\fs22
+\cf1
+{The integer and decimal data types are considered ________________ because their
+ precision is exact.\par
+}\plain \f1
+\fs22
+\cf1
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx4185
+\clvertalt
+\cellx4545
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{a.}{\cell
+}{real data types\cell
+}{c.}{\cell
+}{exact numeric data types\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx4185
+\clvertalt
+\cellx4545
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{b.}{\cell
+}{approximate numeric data types\cell
+}{d.}{\cell
+}{Unicode characters\cell
+}\row
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\sa1\plain \f1
+\fs12
+\cf1
+{\par
+}\plain \f1
+\fs12
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\tx0\tx634\tx1958\tx2592\tx3916\tx4550\tx5874\tx6508
+\plain \f1
+\fs22
+\cf1
+{ANS:\tab }\plain \f1
+\fs22
+\cf1
+{C\tab }\plain \f1
+\fs22
+\cf1
+{PTS:\tab }\plain \f1
+\fs22
+\cf1
+{1}\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs22
+\cf1
+{\par
+}\plain \f1
+\fs22
+\cf1
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi-630
+\ql\sa120\tqr\tx-180\tx0
+{\tab }\plain \f1
+\fs22
+\cf1
+{15.}{\tab }\plain \f1
+\fs22
+\cf1
+\plain \f4
+\fs22
+\cf1
+{If you assign a value with one data type to a column with another data type, SQL
+ Server converts the value to the data type of the column using what?\par
+}\plain \f1
+\fs22
+\cf1
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx4185
+\clvertalt
+\cellx4545
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{a.}{\cell
+}{explicit conversion\cell
+}{c.}{\cell
+}{Unicode values\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx4185
+\clvertalt
+\cellx4545
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{b.}{\cell
+}{implicit conversion\cell
+}{d.}{\cell
+}{scientific notation\cell
+}\row
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\sa1\plain \f1
+\fs12
+\cf1
+{\par
+}\plain \f1
+\fs12
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\tx0\tx634\tx1958\tx2592\tx3916\tx4550\tx5874\tx6508
+\plain \f1
+\fs22
+\cf1
+{ANS:\tab }\plain \f1
+\fs22
+\cf1
+{B\tab }\plain \f1
+\fs22
+\cf1
+{PTS:\tab }\plain \f1
+\fs22
+\cf1
+{1}\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs22
+\cf1
+{\par
+}\plain \f1
+\fs22
+\cf1
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi-630
+\ql\sa120\tqr\tx-180\tx0
+{\tab }\plain \f1
+\fs22
+\cf1
+{16.}{\tab }\plain \f1
+\fs22
+\cf1
+{To code a/an ________________ value as a literal, precede the value with the cha
+racter N.\par
+}\plain \f1
+\fs22
+\cf1
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx4185
+\clvertalt
+\cellx4545
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{a.}{\cell
+}{ASCII\cell
+}{c.}{\cell
+}{Unicode\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx4185
+\clvertalt
+\cellx4545
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{b.}{\cell
+}{fixed-length string\cell
+}{d.}{\cell
+}{variable-length string\cell
+}\row
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\sa1\plain \f1
+\fs12
+\cf1
+{\par
+}\plain \f1
+\fs12
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\tx0\tx634\tx1958\tx2592\tx3916\tx4550\tx5874\tx6508
+\plain \f1
+\fs22
+\cf1
+{ANS:\tab }\plain \f1
+\fs22
+\cf1
+{C\tab }\plain \f1
+\fs22
+\cf1
+{PTS:\tab }\plain \f1
+\fs22
+\cf1
+{1}\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs22
+\cf1
+{\par
+}\plain \f1
+\fs22
+\cf1
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi-630
+\ql\sa120\tqr\tx-180\tx0
+{\tab }\plain \f1
+\fs22
+\cf1
+{17.}{\tab }\plain \f1
+\fs22
+\cf1
+{Which function is typically used to insert control characters into a character s
+tring?\par
+}\plain \f1
+\fs22
+\cf1
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx4185
+\clvertalt
+\cellx4545
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{a.}{\cell
+}{ASCII\cell
+}{c.}{\cell
+}{UNICODE\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx4185
+\clvertalt
+\cellx4545
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{b.}{\cell
+}{CHAR\cell
+}{d.}{\cell
+}{STR\cell
+}\row
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\sa1\plain \f1
+\fs12
+\cf1
+{\par
+}\plain \f1
+\fs12
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\tx0\tx634\tx1958\tx2592\tx3916\tx4550\tx5874\tx6508
+\plain \f1
+\fs22
+\cf1
+{ANS:\tab }\plain \f1
+\fs22
+\cf1
+{B\tab }\plain \f1
+\fs22
+\cf1
+{PTS:\tab }\plain \f1
+\fs22
+\cf1
+{1}\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs22
+\cf1
+{\par
+}\plain \f1
+\fs22
+\cf1
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi-630
+\ql\sa120\tqr\tx-180\tx0
+{\tab }\plain \f1
+\fs22
+\cf1
+{18.}{\tab }\plain \f1
+\fs22
+\cf1
+{The real data type can be used to store a _________________, which provides for 
+numbers with up to 7 significant digits.\par
+}\plain \f1
+\fs22
+\cf1
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx4185
+\clvertalt
+\cellx4545
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{a.}{\cell
+}{floating-point number\cell
+}{c.}{\cell
+}{single-precision number\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx4185
+\clvertalt
+\cellx4545
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{b.}{\cell
+}{Unicode\cell
+}{d.}{\cell
+}{double-precision number\cell
+}\row
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\sa1\plain \f1
+\fs12
+\cf1
+{\par
+}\plain \f1
+\fs12
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\tx0\tx634\tx1958\tx2592\tx3916\tx4550\tx5874\tx6508
+\plain \f1
+\fs22
+\cf1
+{ANS:\tab }\plain \f1
+\fs22
+\cf1
+{C\tab }\plain \f1
+\fs22
+\cf1
+{PTS:\tab }\plain \f1
+\fs22
+\cf1
+{1}\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs22
+\cf1
+{\par
+}\plain \f1
+\fs22
+\cf1
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi-630
+\ql\sa120\tqr\tx-180\tx0
+{\tab }\plain \f1
+\fs22
+\cf1
+{19.}{\tab }\plain \f1
+\fs22
+\cf1
+{To express the value of a floating-point number, you can use...\par
+}\plain \f1
+\fs22
+\cf1
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx4185
+\clvertalt
+\cellx4545
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{a.}{\cell
+}{exact numeric data types\cell
+}{c.}{\cell
+}{scientific notation\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx4185
+\clvertalt
+\cellx4545
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{b.}{\cell
+}{approximate numeric data types\cell
+}{d.}{\cell
+}{Unicode\cell
+}\row
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\sa1\plain \f1
+\fs12
+\cf1
+{\par
+}\plain \f1
+\fs12
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\tx0\tx634\tx1958\tx2592\tx3916\tx4550\tx5874\tx6508
+\plain \f1
+\fs22
+\cf1
+{ANS:\tab }\plain \f1
+\fs22
+\cf1
+{C\tab }\plain \f1
+\fs22
+\cf1
+{PTS:\tab }\plain \f1
+\fs22
+\cf1
+{1}\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs22
+\cf1
+{\par
+}\plain \f1
+\fs22
+\cf1
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi-630
+\ql\sa120\tqr\tx-180\tx0
+{\tab }\plain \f1
+\fs22
+\cf1
+{20.}{\tab }\plain \f1
+\fs22
+\cf1
+{What would 7,800,000,000 be using scientific notation?\par
+}\plain \f1
+\fs22
+\cf1
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx4185
+\clvertalt
+\cellx4545
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{a.}{\cell
+}{78 X 10}\plain \super \f0
+\fs22
+\cf1
+{9 }\plain \f0
+\fs22
+\cf1
+{or 78E+9\cell
+}\plain \f1
+\fs22
+\cf1
+{c.}{\cell
+}{7.8 X 10}\plain \super \f0
+\fs22
+\cf1
+{7 }\plain \f0
+\fs22
+\cf1
+{or 7.8E+7\cell
+}\row
+\plain \f1
+\fs22
+\cf1
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx4185
+\clvertalt
+\cellx4545
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{b.}{\cell
+}{7.8 X 10}\plain \super \f0
+\fs22
+\cf1
+{9 }\plain \f0
+\fs22
+\cf1
+{or 7.8E+9\cell
+}\plain \f1
+\fs22
+\cf1
+{d.}{\cell
+}{7.8 X 10}\plain \super \f0
+\fs22
+\cf1
+{8 }\plain \f0
+\fs22
+\cf1
+{or 7.8E+8}\plain \f1
+\fs22
+\cf1
+{\cell
+}\row
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\sa1\plain \f1
+\fs12
+\cf1
+{\par
+}\plain \f1
+\fs12
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\tx0\tx634\tx1958\tx2592\tx3916\tx4550\tx5874\tx6508
+\plain \f1
+\fs22
+\cf1
+{ANS:\tab }\plain \f1
+\fs22
+\cf1
+{B\tab }\plain \f1
+\fs22
+\cf1
+{PTS:\tab }\plain \f1
+\fs22
+\cf1
+{1}\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs22
+\cf1
+{\par
+}\plain \f1
+\fs22
+\cf1
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi-630
+\ql\sa120\tqr\tx-180\tx0
+{\tab }\plain \f1
+\fs22
+\cf1
+{21.}{\tab }\plain \f1
+\fs22
+\cf1
+{Regarding the char and nchar data types, which of the statements below is }\plain \i \f1
+\fs22
+\cf1
+{false}\plain \f1
+\fs22
+\cf1
+{?\par
+}\plain \f1
+\fs22
+\cf1
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{a.}{\cell
+}{data stored using these data types occupies the same number of bytes regardless
+ of the actual length of the string\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{b.}{\cell
+}{they are typically used to define columns that have a fixed number of character
+s\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{c.}{\cell
+}{the char(2) data type will always contain two characters\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{d.}{\cell
+}{char and nchar can automatically resize themselves to accommodate larger string
+s\cell
+}\row
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\sa1\plain \f1
+\fs12
+\cf1
+{\par
+}\plain \f1
+\fs12
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\tx0\tx634\tx1958\tx2592\tx3916\tx4550\tx5874\tx6508
+\plain \f1
+\fs22
+\cf1
+{ANS:\tab }\plain \f1
+\fs22
+\cf1
+{D\tab }\plain \f1
+\fs22
+\cf1
+{PTS:\tab }\plain \f1
+\fs22
+\cf1
+{1}\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs22
+\cf1
+{\par
+}\plain \f1
+\fs22
+\cf1
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi-630
+\ql\sa120\tqr\tx-180\tx0
+{\tab }\plain \f1
+\fs22
+\cf1
+{22.}{\tab }\plain \f1
+\fs22
+\cf1
+{Regarding the varchar and nvarchar data types, which of the statements below is }\plain \i \f1
+\fs22
+\cf1
+{true}\plain \f1
+\fs22
+\cf1
+{?\par
+}\plain \f1
+\fs22
+\cf1
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{a.}{\cell
+}{data stored using these data types occupies only the number of bytes needed to 
+store the string\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{b.}{\cell
+}{they are typically used to define columns with a fixed number of characters\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{c.}{\cell
+}{in general, they are less efficient than fixed-length strings\cell
+}\row
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{d.}{\cell
+}{these types are not able to resize themselves if the stored strings changes in 
+length\cell
+}\row
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\sa1\plain \f1
+\fs12
+\cf1
+{\par
+}\plain \f1
+\fs12
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\tx0\tx634\tx1958\tx2592\tx3916\tx4550\tx5874\tx6508
+\plain \f1
+\fs22
+\cf1
+{ANS:\tab }\plain \f1
+\fs22
+\cf1
+{A\tab }\plain \f1
+\fs22
+\cf1
+{PTS:\tab }\plain \f1
+\fs22
+\cf1
+{1}\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs22
+\cf1
+{\par
+}\plain \f1
+\fs22
+\cf1
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi-630
+\ql\sa120\tqr\tx-180\tx0
+{\tab }\plain \f1
+\fs22
+\cf1
+{23.}{\tab }\plain \f1
+\fs22
+\cf1
+{Which choice below will increase the storage capacity of a varchar column so it 
+can store up to 2 gigabytes of data?\par
+}\plain \f1
+\fs22
+\cf1
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx4185
+\clvertalt
+\cellx4545
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{a.}{\cell
+}\plain \b \f3
+\fs18
+\cf1
+{varchar(large)\cell
+}\plain \f1
+\fs22
+\cf1
+{c.}{\cell
+}\plain \b \f3
+\fs18
+\cf1
+{varchar XTREME\cell
+}\row
+\plain \f1
+\fs22
+\cf1
+\trowd \trql\trgaph45\trleft-45\trautofit1
+\clvertalt
+\cellx315
+\clvertalt
+\cellx4185
+\clvertalt
+\cellx4545
+\clvertalt
+\cellx8415
+\pard
+\intbl \widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql{b.}{\cell
+}\plain \b \f3
+\fs18
+\cf1
+{varchar(max)\cell
+}\plain \f1
+\fs22
+\cf1
+{d.}{\cell
+}\plain \b \f3
+\fs18
+\cf1
+{varchar(XL)}\plain \f1
+\fs22
+\cf1
+{\cell
+}\row
+\pard
+\widctlpar\keep\hyphpar0
+\li0\ri0\fi0
+\ql\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\plain \f1
+\fs2
+\cf1
+{\par
+}\plain \f1
+\fs2
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\sa1\plain \f1
+\fs12
+\cf1
+{\par
+}\plain \f1
+\fs12
+\cf1
+\pard
+\nowidctlpar\hyphpar0
+\li0\ri0\fi0
+\ql\tx0\tx634\tx1958\tx2592\tx3916\tx4550\tx5874\tx6508
+\plain \f1
+\fs22
+\cf1
+{ANS:\tab }\plain \f1
+\fs22
+\cf1
+{B\tab }\plain \f1
+\fs22
+\cf1
+{PTS:\tab }\plain \f1
+\fs22
+\cf1
+{1\par
+\pard
+}}
