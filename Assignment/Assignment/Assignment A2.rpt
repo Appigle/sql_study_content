@@ -1,0 +1,221 @@
+﻿S24 PROG8081
+Assignment 2
+ 
+Lei Chen
+ 
+Jun 19 2024  8:17PM
+ 
+schoolCode Code  courseNumber semester
+---------- ----- ------------ -----------
+EIT        0066C CDEV1020     1
+EIT        0066C INFO1030     1
+EIT        0066C INFO1570     1
+EIT        0066C INFO8000     1
+EIT        0066C PROG8080     1
+EIT        0066C PROG8090     1
+EIT        0066C INFO2080     2
+EIT        0066C INFO8105     2
+EIT        0066C PROG1800     2
+EIT        0066C PROG2230     2
+
+(10 rows affected)
+
+schoolCode Code  courseNumber semester
+---------- ----- ------------ -----------
+EIT        0066C CDEV1020     1
+EIT        0066C INFO1030     1
+EIT        0066C INFO1570     1
+EIT        0066C INFO8000     1
+EIT        0066C PROG8080     1
+EIT        0066C PROG8090     1
+EIT        0066C INFO2080     2
+EIT        0066C INFO8105     2
+EIT        0066C PROG1800     2
+EIT        0066C PROG2230     2
+
+(10 rows affected)
+
+courseNumber prereq   Prereq Course Name
+------------ -------- ----------------------------------------------------------------------
+COMP2280     MGMT2050 ITSS Project Management
+COMP2280     INFO1570 Technology Infrastructure: Fundamentals
+COMP2280     COMP2160 Application Software
+COMP2280     COMP2050 Applied SQL
+
+(4 rows affected)
+
+courseNumber prereq   Prereq Course Name
+------------ -------- ----------------------------------------------------------------------
+COMP2280     MGMT2050 ITSS Project Management
+COMP2280     INFO1570 Technology Infrastructure: Fundamentals
+COMP2280     COMP2160 Application Software
+COMP2280     COMP2050 Applied SQL
+
+(4 rows affected)
+
+number  firstName                                          lastName                                           city
+------- -------------------------------------------------- -------------------------------------------------- ------------------------------
+6434468 RINA                                               ARUNKUMAR                                          KITCHENER
+8436780 LINDY                                              DISTEFANO                                          KITCHENER
+7572373 KATHY                                              HUHN                                               GUELPH
+8383259 ANNA                                               KARASEVICZ                                         KITCHENER
+3455730 DALE                                               KARSH,                                             GUELPH
+3566163 ABDOLSAMAD                                         KATHIRESAN                                         WATERLOO
+6860242 JESSICA                                            LEIER                                              KITCHENER
+6886352 ISAAC                                              SILIADOR                                           KITCHENER
+3214350 PAULETTE                                           SIMS                                               KITCHENER
+5512736 KEN                                                TRANG                                              CAMBRIDGE
+3514239 RAKESH                                             WEKENMANN                                          KITCHENER
+8135170 RICK                                               WHETSTONE                                          KITCHENER
+2117745 LYNDOL                                             YUROVIC                                            KITCHENER
+4427732 ANGEL                                              ZABLAN                                             KITCHENER
+
+(14 rows affected)
+
+number  firstName                                          lastName                                           city
+------- -------------------------------------------------- -------------------------------------------------- ------------------------------
+6434468 RINA                                               ARUNKUMAR                                          KITCHENER
+8436780 LINDY                                              DISTEFANO                                          KITCHENER
+7572373 KATHY                                              HUHN                                               GUELPH
+8383259 ANNA                                               KARASEVICZ                                         KITCHENER
+3455730 DALE                                               KARSH,                                             GUELPH
+3566163 ABDOLSAMAD                                         KATHIRESAN                                         WATERLOO
+6860242 JESSICA                                            LEIER                                              KITCHENER
+6886352 ISAAC                                              SILIADOR                                           KITCHENER
+3214350 PAULETTE                                           SIMS                                               KITCHENER
+5512736 KEN                                                TRANG                                              CAMBRIDGE
+3514239 RAKESH                                             WEKENMANN                                          KITCHENER
+8135170 RICK                                               WHETSTONE                                          KITCHENER
+2117745 LYNDOL                                             YUROVIC                                            KITCHENER
+4427732 ANGEL                                              ZABLAN                                             KITCHENER
+
+(14 rows affected)
+
+unique identifier                    Product Name
+------------------------------------ --------------------------------------------------
+E0B20487-B868-4C3A-8EBC-C01512374C48 Adobe Master Collection - Adobe
+F22D6892-F8C8-4D1B-8FFC-6400BBBA6EC3 Astah - Open Source
+CDDBAA39-074E-4A69-AEA7-4922E912EF48 Dreamweaver - Adobe
+6735A41F-C951-4E06-A01D-55E4FDF1F6E4 Flash - Adobe
+0C7CBEE8-FC72-4B91-A4B8-F624DCF641D6 Illustrator - Adobe
+FD0D173E-E7B2-4750-834D-9E8BAA5332D2 Insight - Faronics
+9946CC35-283C-4AE9-8CEC-E307CECA8ED8 Java JDK with NetBEANS - Sun Microsystems
+F3A71F8C-60B5-42B8-BEF5-32BEA2CDEE40 Mobile Apps Software - Various
+11F84F71-C0B3-4AED-922D-58328E021CF7 MySQL - Open Source
+197EC64E-C5A6-4453-96D0-08C0B2F85053 Office - Microsoft
+4DE945A8-60AD-4869-8533-200BB63FE996 Oracle - Oracle
+D21D68F3-6BB4-431D-9721-218F7F9ABB26 PhotoShop - Adobe
+6045AA05-2129-495F-9EBE-C712BBC90BDA PHP - Open Source
+78245EEA-A27B-45F0-9C45-78DDEBFFD509 Project  - Microsoft
+1901D208-2907-41EE-B87B-015B81DADFA9 Publisher  - Microsoft
+157ACED8-B259-4A97-B609-A9FB169F7A92 Simply Accounting - Sage
+2AB2CDDC-1B60-4582-AFC8-9D53AB844344 SSH Secure Shell - SSH
+E88CDB3D-DFDC-4E35-81A9-8AD3E4BABD8D Textpad Editor - Helios Software
+A933D170-F6F4-4A2F-85D3-4CD5E5D5C0F0 Visio  - Microsoft
+DBF184BF-785A-4FD3-8675-DB41383AC5DA Visual Studio .NET - Microsoft
+
+(20 rows affected)
+
+unique identifier                    Product Name
+------------------------------------ --------------------------------------------------
+E0B20487-B868-4C3A-8EBC-C01512374C48 Adobe Master Collection - Adobe
+F22D6892-F8C8-4D1B-8FFC-6400BBBA6EC3 Astah - Open Source
+CDDBAA39-074E-4A69-AEA7-4922E912EF48 Dreamweaver - Adobe
+6735A41F-C951-4E06-A01D-55E4FDF1F6E4 Flash - Adobe
+0C7CBEE8-FC72-4B91-A4B8-F624DCF641D6 Illustrator - Adobe
+FD0D173E-E7B2-4750-834D-9E8BAA5332D2 Insight - Faronics
+9946CC35-283C-4AE9-8CEC-E307CECA8ED8 Java JDK with NetBEANS - Sun Microsystems
+F3A71F8C-60B5-42B8-BEF5-32BEA2CDEE40 Mobile Apps Software - Various
+11F84F71-C0B3-4AED-922D-58328E021CF7 MySQL - Open Source
+197EC64E-C5A6-4453-96D0-08C0B2F85053 Office - Microsoft
+4DE945A8-60AD-4869-8533-200BB63FE996 Oracle - Oracle
+D21D68F3-6BB4-431D-9721-218F7F9ABB26 PhotoShop - Adobe
+6045AA05-2129-495F-9EBE-C712BBC90BDA PHP - Open Source
+78245EEA-A27B-45F0-9C45-78DDEBFFD509 Project  - Microsoft
+1901D208-2907-41EE-B87B-015B81DADFA9 Publisher  - Microsoft
+157ACED8-B259-4A97-B609-A9FB169F7A92 Simply Accounting - Sage
+2AB2CDDC-1B60-4582-AFC8-9D53AB844344 SSH Secure Shell - SSH
+E88CDB3D-DFDC-4E35-81A9-8AD3E4BABD8D Textpad Editor - Helios Software
+A933D170-F6F4-4A2F-85D3-4CD5E5D5C0F0 Visio  - Microsoft
+DBF184BF-785A-4FD3-8675-DB41383AC5DA Visual Studio .NET - Microsoft
+
+(20 rows affected)
+
+Employee Supervisor Supervisor Reports To
+-------- ---------- ---------------------
+4427732  NULL       NULL
+6434468  NULL       NULL
+6860242  NULL       NULL
+8436780  NULL       NULL
+7572373  4427732    NULL
+8135170  4427732    NULL
+2117745  4427732    NULL
+3214350  4427732    NULL
+3455730  4427732    NULL
+3514239  4427732    NULL
+3566163  4427732    NULL
+8383259  6434468    NULL
+5512736  6860242    NULL
+6886352  8436780    NULL
+
+(14 rows affected)
+
+courseNumber Lowest Mark            Average Mark           Highest Mark
+------------ ---------------------- ---------------------- ----------------------
+INFO8105     75                     86                     94
+PROG1800     70                     84                     94
+INFO2080     63                     77                     83
+PROG2230     51                     68                     82
+
+(4 rows affected)
+
+Employee Number User Id # Courses Taught
+--------------- ------- ----------------
+7572373         HUH373  3
+3455730         KAR730  2
+3566163         KAT163  2
+3514239         WEK239  3
+8135170         WHE170  3
+2117745         YUR745  3
+
+(6 rows affected)
+
+Employee Number User Id # Courses Taught
+--------------- ------- ----------------
+7572373         HUH373  3
+3455730         KAR730  2
+3566163         KAT163  2
+3514239         WEK239  3
+8135170         WHE170  3
+2117745         YUR745  3
+
+(6 rows affected)
+
+Program Program Name                                       Total Fees
+------- -------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CAD     Computer Applications Development (Coop)           $6,760.00
+CPA     Computer Programmer/Analyst (Coop)                 $9,632.00
+ITSS    Information Technology Support Services (Coop)     $7,248.00
+ITID    IT Innovation and Design (Coop)                    $9,642.56
+
+(4 rows affected)
+
+Program Program Name                                       Total Fees
+------- -------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CAD     Computer Applications Development (Coop)           $6,760.00
+CPA     Computer Programmer/Analyst (Coop)                 $9,632.00
+ITSS    Information Technology Support Services (Coop)     $7,248.00
+ITID    IT Innovation and Design (Coop)                    $9,642.56
+
+(4 rows affected)
+
+Student Number Last Name                                          First Name                                         Total Payment Amount
+-------------- -------------------------------------------------- -------------------------------------------------- ---------------------
+2642726        BICKERS                                            SANDRA                                             13159.00
+3868247        KALINOWSKI                                         MELINDA                                            13159.00
+1335314        NOLAN                                              JOSEPH                                             10000.00
+
+(3 rows affected)
+
+
+Completion time: 2024-06-19T20:17:56.4291840-04:00

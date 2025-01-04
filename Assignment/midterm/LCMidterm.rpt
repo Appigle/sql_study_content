@@ -1,0 +1,69 @@
+﻿CURRENT_DATE
+------------
+2024-06-19
+
+(1 row affected)
+
+full_name
+------------------------------------------------------------------------------------------------------
+Aaronsen, Thom
+Aileen, Joan
+Alberto, Francesco
+Alexis, Alexandro
+Alondra, Zev
+Angelica, Nashalie
+Antavius, Troy
+Anthoni, Kaitlyn
+Anum, Trisha
+Aranovitch, Robert
+Armando, Jan
+Arodondo, Cesar
+Articunia, Mercedez
+Aryn, Leroy
+Baylee, Dakota
+Beauregard, Violet
+Bernard, Lucy
+Bernardo, Brittnee
+Blanca, Korah
+Bluzinski, Rachael
+Bradlee, Daniel
+Bragg, Walter
+Braydon, Anne
+Brenton, Kila
+Brooklynn, Keely
+Bucket, Charlie
+Camron, Trentin
+Carrollton, Priscilla
+Carson, Julian
+Chaddick, Derek
+Cheyenne, Kaylea
+Church, Charlie
+Clifford, Jillian
+Colette, Dusty
+Colton, Leah
+Edgardo, Salina
+Eliana, Nikolas
+Elmert, Ron
+Essence, Marjorie
+Eulalia, Kelsey
+Evan, Emily
+
+(41 rows affected)
+
+VendorName                                         PaymentSum
+-------------------------------------------------- ---------------------
+Ford Motor Credit Company                          0.00
+Suburban Propane                                   16.62
+Abbey Office Furnishings                           17.50
+Compuserve                                         19.90
+Coffee Break Service                               41.80
+Roadway Package System, Inc                        43.67
+Evans Executone Inc                                95.00
+Pacific Bell                                       171.01
+Cardinal Business Media, Inc.                      175.00
+Edward Data Services                               207.78
+
+(10 rows affected)
+
+
+Completion time: 2024-06-19T19:26:40.8502539-04:00

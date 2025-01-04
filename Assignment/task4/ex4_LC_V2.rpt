@@ -1,0 +1,170 @@
+﻿S24 PROG8081 Section 4
+<Task #4>
+ 
+Student Name: Lei Chen
+ 
+<current timestamp>
+Jul 18 2024 11:47AM
+*** Question 1 ***
+ 
+VendorCopyLC is exist and executing delete action
+
+(122 rows affected)
+The Number of Rows
+------------------
+122
+
+(1 row affected)
+
+*** Question 2 ***
+ 
+InvoiceBalancesLC is exist and executing delete action
+
+(12 rows affected)
+The Number of Rows
+------------------
+12
+
+(1 row affected)
+
+*** Question 3 ***
+ 
+
+(1 row affected)
+InvoiceID   VendorID    InvoiceNumber                                      InvoiceDate InvoiceTotal          PaymentTotal          CreditTotal           TermsID     InvoiceDueDate PaymentDate
+----------- ----------- -------------------------------------------------- ----------- --------------------- --------------------- --------------------- ----------- -------------- -----------
+116         86          4591178                                            2022-09-01  9345.60               0.00                  0.00                  1           2022-10-01     NULL
+
+(1 row affected)
+
+*** Question 4 ***
+ 
+
+(1 row affected)
+InvoiceID   VendorID    InvoiceNumber                                      InvoiceDate InvoiceTotal          PaymentTotal          CreditTotal           TermsID     InvoiceDueDate PaymentDate
+----------- ----------- -------------------------------------------------- ----------- --------------------- --------------------- --------------------- ----------- -------------- -----------
+117         30          COSTCO345                                          2024-07-18  2800.00               0.00                  0.00                  1           2024-07-18     2024-08-17
+
+(1 row affected)
+
+*** Question 5 ***
+ 
+
+(1 row affected)
+InvoiceID   VendorID    InvoiceNumber                                      InvoiceDate InvoiceTotal          PaymentTotal          CreditTotal           TermsID     InvoiceDueDate PaymentDate
+----------- ----------- -------------------------------------------------- ----------- --------------------- --------------------- --------------------- ----------- -------------- -----------
+117         30          COSTCO345                                          2024-07-18  2800.00               0.00                  300.00                1           2024-07-18     2024-08-17
+
+(1 row affected)
+
+*** Question 6 ***
+ 
+
+(5 rows affected)
+InvoiceID   InvoiceNumber                                      VendorID    InvoiceTotal          CreditTotal
+----------- -------------------------------------------------- ----------- --------------------- ---------------------
+89          39104                                              72          85.31                 0.00
+94          963253264                                          123         52.25                 0.00
+98          31361833                                           83          579.42                0.00
+99          263253268                                          123         59.97                 0.00
+100         263253270                                          123         67.92                 0.00
+101         263253273                                          123         30.75                 0.00
+102         P-0608                                             110         20551.18              1290.00
+105         9982771                                            106         503.20                0.00
+110         134116                                             80          90.36                 0.00
+112         0-2436                                             110         10976.06              90.00
+113         547480102                                          37          224.00                0.00
+115         ZXA-080                                            34          14092.59              90.00
+116         4591178                                            86          9345.60               90.00
+117         COSTCO345                                          30          2800.00               390.00
+
+(14 rows affected)
+
+*** Question 7 ***
+ 
+
+(1 row affected)
+InvoiceID   VendorID    InvoiceNumber                                      InvoiceDate InvoiceTotal          PaymentTotal          CreditTotal           TermsID     InvoiceDueDate PaymentDate
+----------- ----------- -------------------------------------------------- ----------- --------------------- --------------------- --------------------- ----------- -------------- -----------
+89          72          39104                                              2023-01-10  85.31                 0.00                  0.00                  3           2023-02-09     NULL
+94          123         963253264                                          2023-01-18  52.25                 0.00                  0.00                  3           2023-02-17     NULL
+98          83          31361833                                           2023-01-21  579.42                0.00                  0.00                  2           2023-02-10     NULL
+99          123         263253268                                          2023-01-21  59.97                 0.00                  0.00                  3           2023-02-20     NULL
+100         123         263253270                                          2023-01-22  67.92                 0.00                  0.00                  3           2023-02-21     NULL
+101         123         263253273                                          2023-01-22  30.75                 0.00                  0.00                  3           2023-02-21     NULL
+102         110         P-0608                                             2023-01-23  20551.18              0.00                  1290.00               3           2023-02-22     NULL
+105         106         9982771                                            2023-01-24  503.20                0.00                  0.00                  3           2023-02-23     NULL
+110         80          134116                                             2023-01-28  90.36                 0.00                  0.00                  2           2023-02-17     NULL
+112         110         0-2436                                             2023-01-31  10976.06              0.00                  90.00                 3           2023-03-01     NULL
+113         37          547480102                                          2023-02-01  224.00                0.00                  0.00                  3           2023-03-01     NULL
+115         34          ZXA-080                                            2020-03-01  14092.59              0.00                  90.00                 3           2020-03-31     NULL
+117         30          COSTCO345                                          2024-07-18  2800.00               0.00                  390.00                1           2024-07-18     2024-08-17
+
+(13 rows affected)
+
+*** Question 8 ***
+ 
+VendorCopyLC Before Delete
+--------------------------
+122
+
+(1 row affected)
+
+(113 rows affected)
+
+VendorCopyLC After Delete
+-------------------------
+9
+
+(1 row affected)
+
+*** Question 9 ***
+ 
+
+(4 rows affected)
+More invoices than expected. Deletions rolled back.
+Number of FedEx invoices
+------------------------
+4
+
+(1 row affected)
+
+*** Question 10 ***
+ 
+Count BEFORE Transaction
+InvoicesCount
+-------------
+115
+
+(1 row affected)
+
+InvoiceLineItemsCount
+---------------------
+120
+
+(1 row affected)
+
+ 
+
+(1 row affected)
+
+(1 row affected)
+
+(1 row affected)
+Commit Tran!
+ 
+Count AFTER Transaction
+InvoicesCount
+-------------
+116
+
+(1 row affected)
+
+InvoiceLineItemsCount
+---------------------
+122
+
+(1 row affected)
+
+
+Completion time: 2024-07-18T11:47:48.0896605-04:00

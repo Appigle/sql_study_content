@@ -1,0 +1,173 @@
+﻿S24 PROG8081
+Assignment 1
+ 
+Lei Chen
+ 
+Jun 19 2024  8:25PM
+ 
+provinceCode
+------------
+ON
+NS
+CA
+AB
+NULL
+
+(5 rows affected)
+
+provinceCode
+------------
+ON
+NS
+CA
+AB
+
+(4 rows affected)
+
+number  lastName                                           firstName                                          city                           countryCode
+------- -------------------------------------------------- -------------------------------------------------- ------------------------------ -----------
+1114453 WANG                                               YOU-FANG                                           PU MIAO                        CHN
+1448422 SINGH                                              SARDAR                                             NEW DELHI                      IND
+1524560 RAYCHAUDHURI                                       RAJKUMAR                                           NEW DELHI                      IND
+1525872 HE                                                 XIAO-LAN                                           CHENG GUAN                     CHN
+1583129 GOVINDARAJAN                                       SURESH                                             MUMBAI                         IND
+1741420 RAJARAMAN                                          ANAND                                              NEW DELHI                      IND
+1846682 HU                                                 REN-LIANG                                          NANPING                        CHN
+2156685 FU                                                 XING                                               CHONGQUING                     CHN
+2214617 KAR                                                SAYAN                                              NEW DELHI                      IND
+2411767 CAO                                                TONG                                               YONZHOU                        CHN
+2858629 ZANG                                               MU                                                 XIN XIANG                      CHN
+3331840 KUMAR                                              ANANT                                              NEW DELHI                      IND
+3383189 ZHONG                                              BEN-DU                                             DONG GUAN                      CHN
+3583317 RAHA                                               SHIBAJI                                            JAIPUR                         IND
+3621323 LIN                                                PAN-JUAN                                           FOSHAN                         CHN
+4171617 DAS                                                BHANU                                              LUCKNOW                        IND
+4331740 LI                                                 ZHI-HUA                                            WU XI                          CHN
+4337333 TOMASZEWSKI                                        TADEUSZ                                            RASZYN                         POL
+4823589 CHAUDHURY                                          HABIB                                              NEW DELHI                      IND
+4878237 DHYANAPEETAM                                       NITYANANDA                                                                        IND
+5383336 SENGUPTA                                           SOUMITRO                                           BHOPAL                         IND
+5386651 LAKSHMANAN                                         VIVEK                                              NEW DELHI                      IND
+5473160 BABU                                               RAMESH                                             NEW DELHI                      IND
+5561733 ZHANG                                              LI                                                 XIAOGAN                        CHN
+5722566 ZENG                                               SHU-YING                                           HANG ZHOU                      CHN
+5785845 THANGADURAI                                        VENKATARAMAN                                       NEW DELHI                      IND
+6117857 ASTHANA                                            PRAVEER                                            NEW DELHI                      IND
+6148753 LIU                                                ZHONG-LING                                         LIAN ZHOU                      CHN
+6286264 RANGWALA                                           ABBAS                                              INDORE                         IND
+6332381 W                                                  PENG-CHENG                                         SHUO ZHOU                      CHN
+6522569 GAO                                                CHIEN                                              CHONGQING                      CHN
+7118532 AO                                                 ZHI-WEN                                            CHUZHOU                        CHN
+7177611 LUO                                                JIAN-XIN                                           FU SHUN                        CHN
+7381874 MUKHI                                              VIJAY                                              CHENNAI                        IND
+7561574 KARJOL                                             GOVIND                                             BANGALORE                      IND
+7677479 PANDITA                                            RAMABAI                                            NEW DELHI                      IND
+7758774 MUKHERJEE                                          JOIA                                               NEW DELHI                      IND
+7762586 ZHANG                                              XAN-XIANG                                          GANZHOU                        CHN
+8516189 WANG                                               MEI-ZHI                                            YIZHOU                         CHN
+8518680 ABBA                                               ALKASUM                                            ABUJA                          NGA
+8826646 BAJCHI                                             BIJAN                                              NEW DELHI                      IND
+
+(41 rows affected)
+
+code  acronym campusCode schoolCode credentialCode name                                               frenchName
+----- ------- ---------- ---------- -------------- -------------------------------------------------- --------------------------------------------------
+0057C CPA     D          EIT        OCAD           Computer Programmer/Analyst (Coop)                 Programmeur / Analyste (Coop)
+0066C CAD     D          EIT        OCGC           Computer Applications Development (Coop)           Développement d'applications informatiques (Coop)
+1009  CP      D          EIT        OCD            Computer Programmer                                Programmeur
+
+(3 rows affected)
+
+code  acronym name
+----- ------- --------------------------------------------------
+0040C ITID    IT Innovation and Design (Coop)
+0057C CPA     Computer Programmer/Analyst (Coop)
+0066C CAD     Computer Applications Development (Coop)
+1097C ITSS    Information Technology Support Services (Coop)
+
+(4 rows affected)
+
+CourseOfferingId studentNumber finalMark
+---------------- ------------- ----------------------
+9                3526415       53
+9                5767777       54
+9                5785845       50
+9                8653370       51
+19               1114453       52
+19               6471585       51
+19               8317323       54
+29               2866564       52
+29               3117777       53
+29               5727664       53
+29               8414815       53
+
+(11 rows affected)
+
+number capacity    memory
+------ ----------- ----------
+2A220  40          4GB
+
+(1 row affected)
+
+number  reportsTo campusCode schoolCode location                       businessPhone                  extension fax            encryptedSin
+------- --------- ---------- ---------- ------------------------------ ------------------------------ --------- -------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+6860242 NULL      D          TAP        3B21                           (519) 748-5220                 1795      (519) 189-3239 0x0007CB7C6AB96048AC978A291D30545B02000000861CC761A6FB0B72339326A3F01ECEEA8952E4E6E4C3BFF5E9C4F0B5EDA57E41
+6886352 8436780   G          TAP        23                             (519) 748-5220                 6742      NULL           0x0007CB7C6AB96048AC978A291D30545B020000001FDC3FEA76683FB3F6131C8A1FB961D872996FF09080445F848FBBE62F1EDECF
+8436780 NULL      D          TAP        4B179                          (519) 748-5220                 7361      (519) 189-3239 0x0007CB7C6AB96048AC978A291D30545B02000000EB4C6CD82BE151CAC214A08B12FB8982CEC261A3A7FB6B8F743409CFBD6DA14C
+
+(3 rows affected)
+
+code name                                                                   frenchName
+---- ---------------------------------------------------------------------- ----------------------------------------------------------------------
+BUS  Business and Hospitality                                               Business et d'accueil
+CAA  Career and Academic Access                                             De carrière et d'accès aux études
+CLI  Conestoga Language Institute                                           Institut des langues Conestoga
+EIT  Engineering and Information Technology                                 Ingénierie et technologie de l'information
+HLC  Health and Life Sciences and Community Services                        Sciences de la santé et de la Vie et des Services communautaires
+LS   Liberal Studies                                                        Liberal Studies
+MD   Media and Design                                                       Médias et du design
+TAP  Trades and Apprenticeship                                              Métiers et de l'apprentissage
+
+(8 rows affected)
+
+lastName                                           User ID
+-------------------------------------------------- ---------
+JACOBS                                             tjacobs
+JUELL                                              mjuell
+JOLLIFF                                            mjolliff
+JOHNSON                                            mjohnson
+JETER                                              ljeter
+JUSTUS                                             gjustus
+JAMES                                              djames
+JIRASEK                                            cjirasek
+JOHNSON                                            ajohnson
+JAYSURA                                            ajaysura
+
+(10 rows affected)
+
+number  dob                                                                                                                                                                                                                                                              age
+------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -----------
+3566163 July 19, 1960                                                                                                                                                                                                                                                    64
+6434468 January 11, 1960                                                                                                                                                                                                                                                 64
+6860242 February 28, 1961                                                                                                                                                                                                                                                63
+6886352 February 12, 1959                                                                                                                                                                                                                                                65
+8135170 November 12, 1952                                                                                                                                                                                                                                                72
+
+(5 rows affected)
+
+Course Code Course Name
+----------- ----------------------------------------------------------------------
+INFO3140    System Development: Game Design
+PROG2250    Programming: Object Oriented Game Programming
+
+(2 rows affected)
+
+Course Code Course Name
+----------- ----------------------------------------------------------------------
+INFO3140    System Development: Game Design
+PROG2250    Programming: Object Oriented Game Programming
+
+(2 rows affected)
+
+
+Completion time: 2024-06-19T20:25:44.6696615-04:00

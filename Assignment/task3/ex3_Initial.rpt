@@ -1,0 +1,135 @@
+﻿S24 PROG8081 Section ?
+Exercise/Task 3
+ 
+Student Name :
+ 
+Sep 30 2022  3:06PM
+ 
+*** Question 1 ***
+ 
+InvoiceNumber                                      VendorName
+-------------------------------------------------- --------------------------------------------------
+21-4923721                                         Compuserve
+21-4748363                                         Compuserve
+
+(2 rows affected)
+
+*** Question 2 ***
+ 
+InvoiceNumber                                      VendorID    VendorName                                         InvoiceDueDate BalanceDue
+-------------------------------------------------- ----------- -------------------------------------------------- -------------- ---------------------
+9982771                                            106         Ford Motor Credit Company                          2020-02-23     503.20
+31361833                                           83          Ingram                                             2020-02-10     579.42
+0-2436                                             110         Malloy Lithographing Inc                           2020-02-29     10976.06
+P-0608                                             110         Malloy Lithographing Inc                           2020-02-22     19351.18
+
+(4 rows affected)
+
+*** Question 3 ***
+ 
+VendorID    VendorName                                         InvoiceNumber                                      InvoiceTotal
+----------- -------------------------------------------------- -------------------------------------------------- ---------------------
+16          Internal Revenue Service                           NULL                                               NULL
+83          Ingram                                             31359783                                           1575.00
+83          Ingram                                             31361833                                           579.42
+
+(3 rows affected)
+
+*** Question 4 ***
+ 
+SelectionDate    LowestInvoiceTotal    HighestInvoiceTotal
+---------------- --------------------- ---------------------
+After 12/31/2018 6.00                  37966.19
+
+(1 row affected)
+
+*** Question 5 ***
+ 
+VendorState VendorCity                                         InvoiceQty  AvgAmount
+----------- -------------------------------------------------- ----------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+AZ          Phoenix                                            1           $662.00
+CA          Fresno                                             19          $1,208.75
+CA          Los Angeles                                        1           $503.20
+CA          Oxnard                                             3           $188.00
+CA          Pasadena                                           5           $196.12
+CA          Sacramento                                         7           $253.00
+CA          San Francisco                                      3           $1,211.04
+CA          Turlock                                            1           $95.00
+CA          Valencia                                           1           $6,940.25
+DC          Washington                                         1           $600.00
+MA          Boston                                             1           $1,367.50
+MI          Ann Arbor                                          5           $23,978.48
+MI          Auburn Hills                                       2           $10,963.66
+NV          Reno                                               9           $2,575.33
+NV          The Lake                                           1           $2,184.50
+OH          Cleves                                             1           $207.78
+OH          Columbus                                           2           $9.95
+PA          Philadelphia                                       2           $132.68
+TN          Memphis                                            47          $93.15
+TX          Dallas                                             2           $1,077.21
+
+(20 rows affected)
+
+*** Question 6 ***
+ 
+Invoice Date Invoice Qty Invoice Sum
+------------ ----------- ---------------------
+2019-12-11   4           3867.50
+2019-12-03   3           1832.00
+2019-12-01   3           24627.03
+
+(3 rows affected)
+
+*** Question 7 ***
+ 
+Invoice Number                                     Invoice Date Invoice Total
+-------------------------------------------------- ------------ ---------------------
+31361833                                           2020-01-21   579.42
+31359783                                           2019-12-03   1575.00
+
+(2 rows affected)
+
+*** Question 8 ***
+ 
+VendorID    InvoiceNumber                                      InvoiceTotal
+----------- -------------------------------------------------- ---------------------
+34          Q545443                                            1083.58
+72          40318                                              21842.00
+83          31359783                                           1575.00
+110         0-2058                                             37966.19
+110         P-0259                                             26881.40
+121         97/522                                             1962.13
+121         97/222                                             1000.46
+122         989319-457                                         3813.33
+122         989319-447                                         3689.99
+122         989319-437                                         2765.36
+
+(10 rows affected)
+
+*** Question 9 ***
+ 
+VendorName                                         LatestInv
+-------------------------------------------------- ----------
+Cal State Termite                                  NULL
+California Business Machines                       NULL
+California Chamber Of Commerce                     NULL
+California Data Marketing                          NULL
+Capital Resource Credit                            NULL
+Champion Printing Company                          NULL
+City Of Fresno                                     NULL
+Cmg Information Services                           NULL
+Computer Library                                   NULL
+Costco                                             NULL
+Courier Companies, Inc                             NULL
+Crown Printing                                     NULL
+Custom Printing Company                            NULL
+Compuserve                                         2019-11-13
+Computerworld                                      2019-12-11
+Coffee Break Service                               2019-12-24
+Cahners Publishing Company                         2019-12-28
+Cardinal Business Media, Inc.                      2020-01-28
+
+(18 rows affected)
+
+
+Completion time: 2022-09-30T15:06:58.1296575-04:00

@@ -1,0 +1,180 @@
+﻿S24 PROG8081 Section 4
+<Assignment #3>
+ 
+Student Name:Lei Chen
+ 
+<current timestamp>
+Jul 25 2024 10:23AM
+*** Question 1 ***
+ 
+number  birthdate
+------- -----------------------
+2517621 1992-12-14 00:00:00.000
+
+(1 row affected)
+
+*** Question 2 ***
+ 
+Student Number Last Name            First Name           Provice Country
+-------------- -------------------- -------------------- ------- -------
+1352236        COSBY                GENE                 NS      CAN
+5123120        FLOYD                YOLANDA              CA      USA
+4512125        LAGERBERG            VALERIE              AB      CAN
+
+(3 rows affected)
+
+*** Question 3 ***
+ 
+Course Number Hours       Credits     Course Name
+------------- ----------- ----------- ----------------------------------------------------------------------
+COMM1180      45          3           Effective Technical Comunication I
+COMP1380      45          3           Advanced User Applications
+INFO1570      60          4           Technology Infrastructure: Fundamentals
+MATH1910      45          3           Mathematics for IT I
+PROG1780      90          6           Programming: Fundamentals
+
+(5 rows affected)
+
+*** Question 4 ***
+ 
+Student Number First Name                                         Last Name
+-------------- -------------------------------------------------- --------------------------------------------------
+1448422        SARDAR                                             SINGH
+1524560        RAJKUMAR                                           RAYCHAUDHURI
+1525872        XIAO-LAN                                           HE
+1583129        SURESH                                             GOVINDARAJAN
+1741420        ANAND                                              RAJARAMAN
+1846682        REN-LIANG                                          HU
+2156685        XING                                               FU
+2214617        SAYAN                                              KAR
+2411767        TONG                                               CAO
+3331840        ANANT                                              KUMAR
+3583317        SHIBAJI                                            RAHA
+3621323        PAN-JUAN                                           LIN
+4331740        ZHI-HUA                                            LI
+4337333        TADEUSZ                                            TOMASZEWSKI
+5383336        SOUMITRO                                           SENGUPTA
+5386651        VIVEK                                              LAKSHMANAN
+5473160        RAMESH                                             BABU
+5561733        LI                                                 ZHANG
+5722566        SHU-YING                                           ZENG
+6117857        PRAVEER                                            ASTHANA
+6148753        ZHONG-LING                                         LIU
+6286264        ABBAS                                              RANGWALA
+6332381        PENG-CHENG                                         W
+6522569        CHIEN                                              GAO
+7118532        ZHI-WEN                                            AO
+7177611        JIAN-XIN                                           LUO
+7381874        VIJAY                                              MUKHI
+7561574        GOVIND                                             KARJOL
+7758774        JOIA                                               MUKHERJEE
+7762586        XAN-XIANG                                          ZHANG
+8518680        ALKASUM                                            ABBA
+8826646        BIJAN                                              BAJCHI
+
+(32 rows affected)
+
+*** Question 5 ***
+ 
+
+(0 rows affected)
+
+(0 rows affected)
+*** Question 6 ***
+ 
+
+(1 row affected)
+Display the added person info:
+ 
+number  lastName                                           firstName                                          street                                                                           city                           provinceCode countryCode postalCode mainPhone                      alternatePhone                 collegeEmail                                                                     personalEmail                                                                    birthdate
+------- -------------------------------------------------- -------------------------------------------------- -------------------------------------------------------------------------------- ------------------------------ ------------ ----------- ---------- ------------------------------ ------------------------------ -------------------------------------------------------------------------------- -------------------------------------------------------------------------------- -----------------------
+7424478 Joe                                                Joe                                                Speedvale Ave                                                                    Guelph                         ON           CAN         N1K 1E6    001-1111111111                 001-2222222222                 xyz@conestogac.on.ca                                                             abc@gmail.com                                                                    2002-12-07 00:00:00.000
+
+(1 row affected)
+
+*** Question 7 ***
+ 
+
+(1 row affected)
+Display the added Student info:
+ 
+number  isInternational academicStatusCode financialStatusCode sequentialNumber balance               localStreet                                                                      localCity                      localPostalCode
+------- --------------- ------------------ ------------------- ---------------- --------------------- -------------------------------------------------------------------------------- ------------------------------ ---------------
+7424478 1               N                  P                   0                1130.00               445 GIBSON ST N                                                                  Kitchener                      N2M 4T4
+
+(1 row affected)
+
+*** Question 8 ***
+ 
+
+(1 row affected)
+Student Number Program Code semester    Program Status Code
+-------------- ------------ ----------- -------------------
+7424478        0066C        1           A
+
+(1 row affected)
+
+*** Question 9 ***
+ 
+
+(1 row affected)
+Display the added info:
+ 
+CourseOfferingId studentNumber finalMark
+---------------- ------------- ----------------------
+133              7424478       0
+
+(1 row affected)
+
+*** Question 10 ***
+ 
+
+(1 row affected)
+Display the added info:
+ 
+number   hours       credits     name                                                                   frenchName
+-------- ----------- ----------- ---------------------------------------------------------------------- ----------------------------------------------------------------------
+LIBS9010 45          3           Critical Thinking Skills                                               Pensée Critique 
+
+(1 row affected)
+
+*** Question 11 ***
+ 
+
+(1 row affected)
+Display the added info:
+ 
+number   hours       credits     name                                                                   frenchName
+-------- ----------- ----------- ---------------------------------------------------------------------- ----------------------------------------------------------------------
+BUS9070  45          3           Introduction To Human Relations                                        Introduction aux relations humaines
+
+(1 row affected)
+
+*** Question 12 ***
+ 
+
+(1 row affected)
+
+(1 row affected)
+Display the updated info:
+ 
+id          amountPerSemester     item                                                         frenchItem
+----------- --------------------- ------------------------------------------------------------ ------------------------------------------------------------
+5           100.00                Technology Enhancement Fee                                   Frais de perfectionnement de la technologie
+
+(1 row affected)
+
+*** Question 13 ***
+ 
+
+(1 row affected)
+Display the updated info:
+ 
+id          amountPerSemester     item                                                         frenchItem
+----------- --------------------- ------------------------------------------------------------ ------------------------------------------------------------
+5           190.00                Technology Enhancement Fee                                   Frais de perfectionnement de la technologie
+
+(1 row affected)
+
+
+Completion time: 2024-07-25T10:23:39.4097847-04:00
